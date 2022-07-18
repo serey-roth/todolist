@@ -1,0 +1,349 @@
+:root {
+    --gap-xs: 5px;
+    --gap-s: 10px;
+    --gap-m: 15px;
+    --gap-l: 20px;
+    --gap-xl: 25px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 
+    'Lucida Grande', 
+    'Lucida Sans', 
+    Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xs);
+    align-items: center;
+    min-height: 100vh;
+    margin-bottom: var(--gap-s);
+    z-index: 1;
+}
+
+.btn {
+    padding: 5px;
+    width: 70px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 3px 5px black;
+    border-radius: 50px;
+    transition: filter 0.5s ease-in;
+    background: white;
+    color: black;
+}
+
+.btn:hover {
+    filter: brightness(90%);
+}
+
+.input {
+    padding: var(--gap-xs);
+    margin-bottom: var(--gap-s);
+    width: 100%;
+    height: 30px;
+    padding: 15px;
+    border: none;
+    box-shadow: 1px 3px 5px black;
+    border-radius: 50px;
+    cursor: text;
+}
+
+h3 {
+    margin-bottom: var(--gap-s);
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-xs);
+    width: 100%;
+    padding: var(--gap-s);
+    background-color: rgb(29, 29, 24);
+}
+
+.header .title-bar {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+/* User Authentication */
+.header .user-auth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-s); 
+    padding: 5px;
+    max-width: 100%;
+}
+
+.header .user-auth h6 {
+    width: 150px;
+    overflow: hidden;
+}
+
+.user-auth .btn.active,
+.user-auth .active {
+    display: block;
+}
+
+.user-auth .btn.inactive,
+.user-auth .inactive {
+    display: none;
+}
+
+.user-auth .btn {
+    width: 35px;
+}
+
+/* User input */
+.user-input {
+    flex-grow: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-xs);
+    width: 100%;
+    padding: var(--gap-s);
+    background-color: rgb(85, 68, 42);
+}
+
+.user-input form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: var(--gap-xs);
+}
+
+/* Task List */ 
+.task-list {
+    display: none;
+}
+
+.task-list.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-s);
+    width: 100%;
+    padding: var(--gap-s);
+    overflow-y: auto;
+    background-color: rgb(156, 156, 32);
+}
+
+.task-list .task {
+    width: 80vw;
+    height: auto;
+    text-align: center;
+    padding: var(--gap-s) var(--gap-s);
+    box-shadow: 1px 3px 5px black;
+    border-radius: 50px;
+}
+
+.task-list .task .task-date {
+    font-style: italic;
+    padding-bottom: var(--gap-xs);
+    border-bottom: 1px solid black;
+}
+
+.task-list .task .task-date, 
+.task-list .task .task-detail {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin-bottom: var(--gap-xs)
+} 
+
+.task-list .task .task-complete-chkbx {
+    width: 15px;
+    height: 15px;
+}
+
+.task-list .task .task-delete-btn {
+    background-color: inherit;
+    border: none;
+    transition: 1s ease-in;
+    font-size: 20px;
+    vertical-align: bottom;
+}
+
+.fa.fa-trash {
+    width: 10px;
+    height: 10px;
+    color: white;
+}
+
+.task.incomplete {
+    background: linear-gradient(to left bottom, blue, red);
+    box-shadow: 1px 3px 7px 1px rgba(255,255,0, 0.25);
+}
+
+.task.complete {
+    background: linear-gradient(to right top, purple, magenta);
+    box-shadow: 1px 3px 7px 1px rgba(255,255,0, 0.25);
+}
+
+/* Log In Form and Overlay*/
+.log-in-modal, 
+.overlay {
+    display: none;
+}
+
+.overlay.active {
+    display: block;
+    width: 100%;
+    height: 115vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 90%;
+    background-color: rgb(67, 35, 35);
+}
+
+.log-in-modal.active {
+    display: block;
+    z-index: 12;
+    filter: opacity(95%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.log-in-form { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-s);
+    padding: var(--gap-l);
+    width: 250px;
+    text-align: center;
+    background: rgb(34, 34, 30);
+}
+
+.errorlabel {
+    display: none;
+}
+
+.errorlabel.active {
+    color: red;
+}
+
+#closeLogInModalBtn {
+    align-self: flex-end;
+    width: 30px;
+}
+
+#closeLogInModalBtn:hover {
+    color: red;
+}
+
+/* Footer */
+.footer {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    padding: var(--gap-s);
+    text-align: center;
+    background-color: gold;
+}
+
+a {
+    color: inherit;
+}
+
+@media only screen and (min-width: 500px) {
+    /* Header */
+    .header {
+        flex-direction: row;
+        justify-content: unset;
+    }
+
+    .header .title-bar {
+        flex-grow: 10;
+        text-align: left;
+    }
+
+    .header .user-auth {
+        font-size: larger;
+    }
+
+    .header .user-auth h6 {
+        width: auto;
+    }
+    
+    /* User input */
+    .user-input {
+        padding: var(--gap-m);
+    }
+    .user-input h3 {
+        font-size: 20px;
+    }
+
+    .user-input form {
+        flex-direction: row;
+        align-items: center;
+        gap: var(--gap-m);
+        width: 85vw;
+        padding: 0;
+    }
+
+    .user-input .input {
+        margin: 0;
+        width: auto;
+        height: 40px;
+        border-radius: 50px;
+        padding: var(--gap-m);
+    }
+
+    .user-input input[type='text'] {
+        flex-grow: 7;
+    }
+
+    .user-input input[type='date'] {
+        flex-grow: 1;
+    }
+
+    .user-input button {
+        height: 40px;
+    }
+
+    /* User Log in Form */
+    .log-in-form { 
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        padding: calc(2 * var(--gap-l));
+        background: rgb(34, 34, 30);
+        border-radius: 50px;
+        box-shadow: 1px 3px 5px black;
+    }
+}

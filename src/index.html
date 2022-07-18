@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="header">
+                    <div class="title-bar">
+                        <h1 class="title">To-Do-List</h1>
+                    </div>
+                    <div class="user-auth">
+                        <h6 id="userGreeting" class="inactive">Welcome abcde@gmail.com!</h6>
+                        <button type="button" class="btn active" id="openLogInModalBtn">
+                            <i class="fa fa-sign-in"></i></button>
+                        <button type="button" class="btn inactive" id="logOutBtn">
+                            <i class="fa fa-sign-out"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="user-input" id="userInput">
+                    <h3>What's on the agenda?</h3>
+                    <form class="add-task-form" id="addTaskForm">
+                        <input class='input' type="date" 
+                            name="add-task-calendar" 
+                            id="taskDate"
+                            placeholder="2022-07-04"
+                            min="1900-01-01"
+                            required>
+                        <input class='input' type='text'
+                            id="taskDetail"
+                            placeholder="Enter your task details!"
+                            required></in>
+                        <button type="submit" class="btn" id="addTaskBtn">Submit</button>
+                    </form>
+                </div>
+                <div class="task-list" id="taskList">
+                    <h3>Go get 'em, tiger!</h3>
+                </div>
+            </div>
+            <div class="log-in-modal" id="loginModal">
+                <form class="log-in-form" id="logInForm">
+                    <button type="button" class="btn" id='closeLogInModalBtn'><i class="fa fa-close"></i></button>
+                    <h3>Enter your credentials:</h3>
+                    <input
+                    class="input"
+                        id="emailTxt" 
+                        type="email"
+                        placeholder="Email">
+                    <input
+                        class="input"
+                        id="passwordTxt" 
+                        type="password"
+                        placeholder="Password">
+                    <p id="lblLoginErrorMessage" class="errorlabel active">Error message</p>
+                    <button id="logInBtn" type="button" class="btn">Log in</button>
+                    <button id="signUpBtn" type="button" class="btn">Sign up</button>
+                </form>
+            </div>
+            <div class="overlay" id='overlay'></div>
+            <div class="footer">
+                <p>Copyright &copy; 2022 Serey Roth</p>
+                <a href="#">Source</a>
+            </div>
+        </div>
+    </body>
+</html>
