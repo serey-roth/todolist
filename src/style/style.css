@@ -644,7 +644,7 @@ h3 {
   width: 100%;
   gap: var(--gap-xs);
   padding: var(--gap-s);
-  background-color: var(--hover);
+  background-color: var(--selected);
   color: black;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
