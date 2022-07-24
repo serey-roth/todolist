@@ -1,5 +1,4 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/@firebase/auth/dist/esm2017/index-58473f72.js":
@@ -8,6 +7,7 @@
   \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "$": () => (/* binding */ signInWithCustomToken),
@@ -9604,6 +9604,7 @@ registerAuth("Browser" /* BROWSER */);
   \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ActionCodeOperation": () => (/* reexport safe */ _index_58473f72_js__WEBPACK_IMPORTED_MODULE_0__.A),
@@ -9708,6 +9709,7 @@ __webpack_require__.r(__webpack_exports__);
   \****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AbstractUserDataWriter": () => (/* binding */ ol),
@@ -29426,6 +29428,7 @@ function Ol(t, e) {
   \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "CONSTANTS": () => (/* binding */ CONSTANTS),
@@ -31425,6 +31428,7 @@ function getModularInstance(service) {
   \*************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ErrorCode": () => (/* binding */ ErrorCode),
@@ -31549,12 +31553,194 @@ var XhrIo = esm.XhrIo=X;
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/style/style.css":
+/*!*******************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/style/style.css ***!
+  \*******************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --gap-xs: 5px;\n  --gap-s: 10px;\n  --gap-m: 15px;\n  --gap-l: 20px;\n  --gap-xl: 25px;\n  --header: #023047;\n  --dashboard: #219ebc;\n  --main: #8ecae6;\n  --hover: #a9def9;\n  --selected: #ced4da;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n}\n\nbody {\n  font-size: 16px;\n  font-family: 'Righteous', Arial, Helvetica, sans-serif;\n  background-color: black;\n  color: white;\n}\n\n.container {\n  padding: var(--gap-s);\n}\n\n.contents {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  gap: var(--gap-xs);\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  margin-bottom: var(--gap-xs);\n  min-height: 100vh;\n  z-index: 1;\n}\n\n.btn {\n  padding: var(--gap-s);\n  width: 70px;\n  border: none;\n  -webkit-box-shadow: 1px 3px 5px black;\n          box-shadow: 1px 3px 5px black;\n  border-radius: 50px;\n  -webkit-transition: -webkit-filter 0.5s ease-in;\n  transition: -webkit-filter 0.5s ease-in;\n  transition: filter 0.5s ease-in;\n  transition: filter 0.5s ease-in, -webkit-filter 0.5s ease-in;\n  background: var(--header);\n  color: inherit;\n  font-family: inherit;\n}\n\n.btn:hover {\n  -webkit-filter: brightness(90%);\n          filter: brightness(90%);\n}\n\n.btn.inactive {\n  display: none;\n}\n\n.btn.active {\n  display: block;\n}\n\n.input {\n  padding: var(--gap-xs);\n  width: 100%;\n  height: 30px;\n  padding: 15px;\n  border: none;\n  -webkit-box-shadow: 1px 3px 5px black;\n          box-shadow: 1px 3px 5px black;\n  border-radius: 50px;\n  font-family: inherit;\n}\n\nh3 {\n  margin-bottom: var(--gap-s);\n}\n\n/* Header */\n.header {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  gap: var(--gap-xs);\n  width: 100%;\n  padding: var(--gap-s);\n  background-color: var(--header);\n  color: white;\n}\n\n.header .dashboard-activator {\n  width: 25px;\n  height: 25px;\n}\n\n.header .fa.fa-bars {\n  background-color: inherit;\n  color: white;\n  border: none;\n  outline: none;\n  width: 100%;\n  height: 100%;\n  font-size: 20px;\n  -webkit-transition: all 0.2s ease-in-out;\n  transition: all 0.2s ease-in-out;\n}\n\n.header .fa.fa-bars:hover {\n  color: var(--hover);\n}\n\n.header .title-bar {\n  margin: 0;\n  padding: 0;\n  text-align: left;\n  text-transform: lowercase;\n  -webkit-box-flex: 1;\n      -ms-flex-positive: 1;\n          flex-grow: 1;\n}\n\n/* Main */\n.main {\n  display: block;\n  width: 100%;\n  -webkit-box-flex: 2;\n      -ms-flex-positive: 2;\n          flex-grow: 2;\n  position: relative;\n  background-color: var(--main);\n}\n\n@media only screen and (min-width: 520px) {\n  .main {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n  }\n}\n\n/* Dashboard */\n.dashboard {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  gap: var(--gap-xs);\n  padding: var(--gap-s) var(--gap-l);\n  width: 50%;\n  height: 100%;\n  max-height: 100%;\n  background-color: var(--dashboard);\n  color: white;\n  -webkit-transition: all 1s ease-in-out;\n  transition: all 1s ease-in-out;\n  position: absolute;\n  z-index: 2;\n}\n\n.dashboard.inactive {\n  display: none;\n}\n\n.dashboard.active {\n  display: auto;\n}\n\n.dashboard .task-group {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  width: 100%;\n  padding: var(--gap-xs) 0px;\n  cursor: pointer;\n}\n\n.dashboard .task-group h4 {\n  -webkit-transition: 0.2s ease-in-out;\n  transition: 0.2s ease-in-out;\n  -webkit-box-flex: 2;\n      -ms-flex-positive: 2;\n          flex-grow: 2;\n}\n\n.dashboard .task-group h5 {\n  padding-left: var(--gap-s);\n  cursor: pointer;\n  -webkit-transition: 0.1s ease-in-out;\n  transition: 0.1s ease-in-out;\n  -webkit-box-flex: 2;\n      -ms-flex-positive: 2;\n          flex-grow: 2;\n}\n\n.dashboard .task-group p {\n  padding: 0px var(--gap-s);\n  text-align: center;\n  border-radius: 20px;\n  border: none;\n  -webkit-box-shadow: 1px 1px 10px 1px white;\n          box-shadow: 1px 1px 10px 1px white;\n}\n\n.dashboard .task-group:hover {\n  -webkit-filter: invert(30%);\n          filter: invert(30%);\n}\n\n.dashboard .task-group.selected h4, .dashboard .task-group.selected h5 {\n  color: var(--selected);\n  font-weight: bolder;\n  -webkit-transform: scale(1.1);\n          transform: scale(1.1);\n}\n\n.dashboard .collection {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  gap: var(--gap-xs);\n}\n\n.dashboard .collection .collection-header {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: row;\n      -ms-flex: row;\n          flex: row;\n  gap: var(--gap-s);\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  height: 20px;\n}\n\n.dashboard .collection .collection-header h4 {\n  height: 100%;\n  margin: 0;\n  padding: 0;\n  -webkit-box-flex: 1;\n      -ms-flex-positive: 1;\n          flex-grow: 1;\n}\n\n.dashboard .collection .collection-header button {\n  font-size: 15px;\n  background-color: inherit;\n  color: white;\n  border: none;\n  -webkit-transition: 0.2s ease-in-out;\n  transition: 0.2s ease-in-out;\n}\n\n.dashboard .collection .collection-header button:hover {\n  -webkit-transform: scale(1.1);\n          transform: scale(1.1);\n  color: var(--hover);\n}\n\n.dashboard #projects {\n  width: 100%;\n  padding-bottom: var(--gap-m);\n}\n\n.dashboard #projects .project-list {\n  width: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\n\n.dashboard #projects .project-list.active {\n  display: auto;\n}\n\n.dashboard #projects .project-list.inactive {\n  display: none;\n}\n\n.dashboard #projects #openAddProjectFormBtn {\n  width: 100%;\n  margin-top: var(--gap-xs);\n}\n\n.dashboard #projects .add-project-form {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  gap: var(--gap-s);\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  margin-top: var(--gap-s);\n  -webkit-transition: all 0.2s ease-in-out;\n  transition: all 0.2s ease-in-out;\n}\n\n.dashboard #projects .add-project-form.inactive {\n  display: none;\n}\n\n.dashboard #projects .add-project-form.active {\n  display: auto;\n}\n\n.dashboard #projects .add-project-form input {\n  padding: var(--gap-xs);\n  width: 100%;\n}\n\n.dashboard #projects .add-project-form .btn-group {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  gap: var(--gap-xs);\n  width: 100%;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.dashboard .user-auth {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  gap: var(--gap-s);\n  padding: 5px;\n  width: 100%;\n}\n\n.dashboard .user-auth h6 {\n  width: 100%;\n  font-size: 15px;\n  overflow: hidden;\n}\n\n.dashboard .user-auth .active {\n  display: block;\n}\n\n.dashboard .user-auth .inactive {\n  display: none;\n}\n\n.dashboard .user-auth .btn {\n  width: 100%;\n}\n\n.dashboard .user-auth .btn.active {\n  display: block;\n}\n\n.dashboard .user-auth .btn.inactive {\n  display: none;\n}\n\n@media only screen and (min-width: 520px) {\n  .dashboard {\n    position: relative;\n    width: 250px;\n    height: auto;\n  }\n}\n\n.task-content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  z-index: 1;\n  -webkit-box-flex: 1;\n      -ms-flex-positive: 1;\n          flex-grow: 1;\n  padding: var(--gap-s) var(--gap-l);\n  background-color: var(--main);\n}\n\n@media only screen and (min-width: 520px) {\n  .task-content {\n    height: auto;\n    position: relative;\n  }\n}\n\n.content-header {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: var(--gap-s);\n  gap: var(--gap-s);\n  font-size: 14px;\n}\n\n.content-header h3 {\n  -webkit-box-flex: 2;\n      -ms-flex-positive: 2;\n          flex-grow: 2;\n  height: 100%;\n  padding-top: 3px;\n  text-decoration: underline;\n}\n\n.content-header .btn {\n  width: 100px;\n}\n\n.content-header span {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  gap: var(--gap-xs);\n  height: 100%;\n  font-family: inherit;\n}\n\n.content-header span label {\n  display: block;\n  padding-top: 6px;\n}\n\n.content-header span select {\n  width: 20px;\n  padding: var(--gap-xs);\n  border-radius: 50px;\n  -webkit-box-shadow: 1px 3px 5px black;\n          box-shadow: 1px 3px 5px black;\n}\n\n@media only screen and (min-width: 520px) {\n  .content-header {\n    font-size: 16px;\n  }\n  .content-header span select {\n    width: 100px;\n  }\n}\n\n/* Task List */\n.task-list {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  gap: var(--gap-s);\n  width: 100%;\n  padding: var(--gap-xs) var(--gap-s);\n  overflow-y: auto;\n  background-color: inherit;\n  -webkit-box-flex: 2;\n      -ms-flex-positive: 2;\n          flex-grow: 2;\n}\n\n.task-list .task-card {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  width: 100%;\n  gap: 0;\n  -webkit-box-shadow: 2px 3px 7px 5px rgba(255, 255, 0, 0.25);\n          box-shadow: 2px 3px 7px 5px rgba(255, 255, 0, 0.25);\n  border-left: 10px solid black;\n  border-top-left-radius: 10px;\n  border-bottom-left-radius: 10px;\n  border-bottom-right-radius: 10px;\n}\n\n.task-list .task-card .task-display {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  gap: var(--gap-s);\n  width: 100%;\n  padding: var(--gap-s);\n  background-color: white;\n  color: black;\n  cursor: pointer;\n  -webkit-transition: 0.2s ease-in-out;\n  transition: 0.2s ease-in-out;\n}\n\n.task-list .task-card .task-display .task-complete-status {\n  border-radius: 100px;\n}\n\n.task-list .task-card .task-display .task-delete-btn, .task-list .task-card .task-display .task-edit-btn {\n  border: none;\n  -webkit-transition: 1s ease-in;\n  transition: 1s ease-in;\n  font-size: 16px;\n  background-color: inherit;\n  pointer-events: all;\n}\n\n.task-list .task-card .task-display.complete {\n  background: grey;\n}\n\n.task-list .task-card .task-display.complete .task-title, .task-list .task-card .task-display.complete .task-due-date {\n  text-decoration: line-through;\n}\n\n.task-list .task-card .task-display.complete .task-delete-btn, .task-list .task-card .task-display.complete .task-edit-btn {\n  pointer-events: none;\n}\n\n.task-list .task-card .task-display:hover {\n  background-color: var(--hover);\n}\n\n.task-list .task-card .task-display .fa.fa-trash, .task-list .task-card .task-display .fa.fa-edit {\n  -webkit-transition: all 0.2s ease-in-out;\n  transition: all 0.2s ease-in-out;\n  vertical-align: middle;\n}\n\n.task-list .task-card .task-display .fa.fa-trash:hover, .task-list .task-card .task-display .fa.fa-edit:hover {\n  color: var(--hover);\n}\n\n.task-list .task-card .task-due-date {\n  font-style: italic;\n}\n\n.task-list .task-card .task-title {\n  -webkit-box-flex: 1;\n      -ms-flex-positive: 1;\n          flex-grow: 1;\n  max-width: 100%;\n  overflow: hidden;\n}\n\n.task-list .task-card .detail-panel {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  width: 100%;\n  gap: var(--gap-xs);\n  padding: var(--gap-s);\n  background-color: var(--hover);\n  color: black;\n  border-bottom-left-radius: 5px;\n  border-bottom-right-radius: 5px;\n  -webkit-transition: all 0.5s ease-in-out;\n  transition: all 0.5s ease-in-out;\n}\n\n.task-list .task-card .detail-panel p {\n  max-width: 100%;\n  overflow: auto;\n}\n\n.task-list .task-card .detail-panel.invisible {\n  display: none;\n}\n\n.task-list .task-card .detail-panel.visible {\n  display: auto;\n}\n\n.task-list .task-card .detail-panel .collapse {\n  border: none;\n  width: -webkit-fit-content;\n  width: -moz-fit-content;\n  width: fit-content;\n  -ms-flex-item-align: end;\n      align-self: flex-end;\n  background-color: inherit;\n  font-style: italic;\n  -webkit-transition: 0.2s ease-in-out;\n  transition: 0.2s ease-in-out;\n}\n\n.task-list .task-card .detail-panel .collapse:hover {\n  color: var(--hover);\n}\n\n/* Overlay */\n.overlay {\n  display: block;\n  width: 100%;\n  height: 115vh;\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 10;\n  opacity: 90%;\n  background-color: #432323;\n}\n\n.overlay.inactive {\n  display: none;\n}\n\n.overlay.active {\n  display: auto;\n}\n\n/* Add Task Modal and Log In Modal*/\n.add-task-modal, .log-in-modal {\n  display: block;\n  z-index: 12;\n  -webkit-filter: opacity(95%);\n          filter: opacity(95%);\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translateX(-50%) translateY(-50%);\n          transform: translateX(-50%) translateY(-50%);\n}\n\n.add-task-modal.active, .log-in-modal.active {\n  display: auto;\n}\n\n.add-task-modal.inactive, .log-in-modal.inactive {\n  display: none;\n}\n\n.add-task-form, .log-in-form {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  gap: var(--gap-s);\n  padding: var(--gap-l);\n  width: 250px;\n  background: var(--header);\n  border-radius: 30px;\n  -webkit-box-shadow: 1px 3px 5px black;\n          box-shadow: 1px 3px 5px black;\n}\n\n@media only screen and (min-width: 520px) {\n  .add-task-form, .log-in-form {\n    width: 300px;\n    padding: calc(1.2 * var(--gap-l));\n  }\n}\n\n.add-task-form .errorlabel, .log-in-form .errorlabel {\n  display: none;\n}\n\n.add-task-form .errorlabel.active, .log-in-form .errorlabel.active {\n  color: red;\n}\n\n.add-task-form #closeLogInModalBtn, .log-in-form #closeLogInModalBtn {\n  -ms-flex-item-align: end;\n      align-self: flex-end;\n  width: 38px;\n  font-size: 16px;\n  padding: var(--gap-s);\n  border-radius: 50%;\n}\n\n.add-task-form #closeLogInModalBtn:hover, .log-in-form #closeLogInModalBtn:hover {\n  color: var(--hover);\n}\n\n.add-task-form #closeAddTaskModalBtn, .log-in-form #closeAddTaskModalBtn {\n  -ms-flex-item-align: end;\n      align-self: flex-end;\n  width: 38px;\n  font-size: 16px;\n  padding: var(--gap-s);\n  border-radius: 50%;\n}\n\n.add-task-form #closeAddTaskModalBtn:hover, .log-in-form #closeAddTaskModalBtn:hover {\n  color: var(--hover);\n}\n\n.add-task-form .btn, .log-in-form .btn {\n  width: 100%;\n  background-color: var(--main);\n  color: white;\n}\n\n.add-task-form .priority, .log-in-form .priority {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  width: 100%;\n  max-width: 100%;\n  gap: var(--gap-xs);\n  padding: var(--gap-s) 0px;\n  border: none;\n}\n\n.add-task-form .priority legend, .log-in-form .priority legend {\n  text-align: left;\n}\n\n.add-task-form .priority label, .log-in-form .priority label {\n  font-size: 13px;\n  display: block;\n  border: 1px solid white;\n  padding: var(--gap-xs);\n  border-radius: 10px;\n  text-align: center;\n}\n\n.add-task-form .priority label input[type=\"radio\"], .log-in-form .priority label input[type=\"radio\"] {\n  vertical-align: text-top;\n}\n\n.add-task-form .priority #lowLabel, .log-in-form .priority #lowLabel {\n  color: green;\n  border: 1px solid green;\n}\n\n.add-task-form .priority #mediumLabel, .log-in-form .priority #mediumLabel {\n  color: yellow;\n  border: 1px solid yellow;\n}\n\n.add-task-form .priority #highLabel, .log-in-form .priority #highLabel {\n  color: red;\n  border: 1px solid red;\n}\n\n.add-task-form #taskDescription, .log-in-form #taskDescription {\n  width: 100%;\n  height: 50px;\n  border-radius: 15px;\n  -webkit-box-shadow: 1px 3px 5px black;\n          box-shadow: 1px 3px 5px black;\n  padding: var(--gap-s);\n  resize: none;\n  font-family: inherit;\n}\n\n.add-task-form .task-project, .log-in-form .task-project {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  gap: var(--gap-s);\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: var(--gap-xs) 0px;\n}\n\n.add-task-form .task-project select, .log-in-form .task-project select {\n  padding: var(--gap-xs);\n  border-radius: 15px;\n  -webkit-box-flex: 2;\n      -ms-flex-positive: 2;\n          flex-grow: 2;\n}\n\n/* Footer */\n.footer {\n  font-size: 16px;\n  width: 100%;\n  height: 100%;\n  padding: var(--gap-s);\n  text-align: center;\n  background-color: var(--header);\n  color: var(--main);\n}\n\n.footer a {\n  color: inherit;\n}\n/*# sourceMappingURL=style.css.map */", "",{"version":3,"sources":["webpack://./src/style/style.scss","webpack://./src/style/style.css"],"names":[],"mappings":"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","sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+module.exports = function (cssWithMappingToString) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = "";
+      var needLayer = typeof item[5] !== "undefined";
+
+      if (item[4]) {
+        content += "@supports (".concat(item[4], ") {");
+      }
+
+      if (item[2]) {
+        content += "@media ".concat(item[2], " {");
+      }
+
+      if (needLayer) {
+        content += "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {");
+      }
+
+      content += cssWithMappingToString(item);
+
+      if (needLayer) {
+        content += "}";
+      }
+
+      if (item[2]) {
+        content += "}";
+      }
+
+      if (item[4]) {
+        content += "}";
+      }
+
+      return content;
+    }).join("");
+  }; // import a list of modules into the list
+
+
+  list.i = function i(modules, media, dedupe, supports, layer) {
+    if (typeof modules === "string") {
+      modules = [[null, modules, undefined]];
+    }
+
+    var alreadyImportedModules = {};
+
+    if (dedupe) {
+      for (var k = 0; k < this.length; k++) {
+        var id = this[k][0];
+
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+
+    for (var _k = 0; _k < modules.length; _k++) {
+      var item = [].concat(modules[_k]);
+
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        continue;
+      }
+
+      if (typeof layer !== "undefined") {
+        if (typeof item[5] === "undefined") {
+          item[5] = layer;
+        } else {
+          item[1] = "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {").concat(item[1], "}");
+          item[5] = layer;
+        }
+      }
+
+      if (media) {
+        if (!item[2]) {
+          item[2] = media;
+        } else {
+          item[1] = "@media ".concat(item[2], " {").concat(item[1], "}");
+          item[2] = media;
+        }
+      }
+
+      if (supports) {
+        if (!item[4]) {
+          item[4] = "".concat(supports);
+        } else {
+          item[1] = "@supports (".concat(item[4], ") {").concat(item[1], "}");
+          item[4] = supports;
+        }
+      }
+
+      list.push(item);
+    }
+  };
+
+  return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/sourceMaps.js":
+/*!************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
+  \************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (item) {
+  var content = item[1];
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (typeof btoa === "function") {
+    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
+    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+    var sourceMapping = "/*# ".concat(data, " */");
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot || "").concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join("\n");
+  }
+
+  return [content].join("\n");
+};
+
+/***/ }),
+
+/***/ "./node_modules/dayjs/dayjs.min.js":
+/*!*****************************************!*\
+  !*** ./node_modules/dayjs/dayjs.min.js ***!
+  \*****************************************/
+/***/ (function(module) {
+
+!function(t,e){ true?module.exports=e():0}(this,(function(){"use strict";var t=1e3,e=6e4,n=36e5,r="millisecond",i="second",s="minute",u="hour",a="day",o="week",f="month",h="quarter",c="year",d="date",$="Invalid Date",l=/^(\d{4})[-/]?(\d{1,2})?[-/]?(\d{0,2})[Tt\s]*(\d{1,2})?:?(\d{1,2})?:?(\d{1,2})?[.:]?(\d+)?$/,y=/\[([^\]]+)]|Y{1,4}|M{1,4}|D{1,2}|d{1,4}|H{1,2}|h{1,2}|a|A|m{1,2}|s{1,2}|Z{1,2}|SSS/g,M={name:"en",weekdays:"Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday".split("_"),months:"January_February_March_April_May_June_July_August_September_October_November_December".split("_")},m=function(t,e,n){var r=String(t);return!r||r.length>=e?t:""+Array(e+1-r.length).join(n)+t},g={s:m,z:function(t){var e=-t.utcOffset(),n=Math.abs(e),r=Math.floor(n/60),i=n%60;return(e<=0?"+":"-")+m(r,2,"0")+":"+m(i,2,"0")},m:function t(e,n){if(e.date()<n.date())return-t(n,e);var r=12*(n.year()-e.year())+(n.month()-e.month()),i=e.clone().add(r,f),s=n-i<0,u=e.clone().add(r+(s?-1:1),f);return+(-(r+(n-i)/(s?i-u:u-i))||0)},a:function(t){return t<0?Math.ceil(t)||0:Math.floor(t)},p:function(t){return{M:f,y:c,w:o,d:a,D:d,h:u,m:s,s:i,ms:r,Q:h}[t]||String(t||"").toLowerCase().replace(/s$/,"")},u:function(t){return void 0===t}},v="en",D={};D[v]=M;var p=function(t){return t instanceof _},S=function t(e,n,r){var i;if(!e)return v;if("string"==typeof e){var s=e.toLowerCase();D[s]&&(i=s),n&&(D[s]=n,i=s);var u=e.split("-");if(!i&&u.length>1)return t(u[0])}else{var a=e.name;D[a]=e,i=a}return!r&&i&&(v=i),i||!r&&v},w=function(t,e){if(p(t))return t.clone();var n="object"==typeof e?e:{};return n.date=t,n.args=arguments,new _(n)},O=g;O.l=S,O.i=p,O.w=function(t,e){return w(t,{locale:e.$L,utc:e.$u,x:e.$x,$offset:e.$offset})};var _=function(){function M(t){this.$L=S(t.locale,null,!0),this.parse(t)}var m=M.prototype;return m.parse=function(t){this.$d=function(t){var e=t.date,n=t.utc;if(null===e)return new Date(NaN);if(O.u(e))return new Date;if(e instanceof Date)return new Date(e);if("string"==typeof e&&!/Z$/i.test(e)){var r=e.match(l);if(r){var i=r[2]-1||0,s=(r[7]||"0").substring(0,3);return n?new Date(Date.UTC(r[1],i,r[3]||1,r[4]||0,r[5]||0,r[6]||0,s)):new Date(r[1],i,r[3]||1,r[4]||0,r[5]||0,r[6]||0,s)}}return new Date(e)}(t),this.$x=t.x||{},this.init()},m.init=function(){var t=this.$d;this.$y=t.getFullYear(),this.$M=t.getMonth(),this.$D=t.getDate(),this.$W=t.getDay(),this.$H=t.getHours(),this.$m=t.getMinutes(),this.$s=t.getSeconds(),this.$ms=t.getMilliseconds()},m.$utils=function(){return O},m.isValid=function(){return!(this.$d.toString()===$)},m.isSame=function(t,e){var n=w(t);return this.startOf(e)<=n&&n<=this.endOf(e)},m.isAfter=function(t,e){return w(t)<this.startOf(e)},m.isBefore=function(t,e){return this.endOf(e)<w(t)},m.$g=function(t,e,n){return O.u(t)?this[e]:this.set(n,t)},m.unix=function(){return Math.floor(this.valueOf()/1e3)},m.valueOf=function(){return this.$d.getTime()},m.startOf=function(t,e){var n=this,r=!!O.u(e)||e,h=O.p(t),$=function(t,e){var i=O.w(n.$u?Date.UTC(n.$y,e,t):new Date(n.$y,e,t),n);return r?i:i.endOf(a)},l=function(t,e){return O.w(n.toDate()[t].apply(n.toDate("s"),(r?[0,0,0,0]:[23,59,59,999]).slice(e)),n)},y=this.$W,M=this.$M,m=this.$D,g="set"+(this.$u?"UTC":"");switch(h){case c:return r?$(1,0):$(31,11);case f:return r?$(1,M):$(0,M+1);case o:var v=this.$locale().weekStart||0,D=(y<v?y+7:y)-v;return $(r?m-D:m+(6-D),M);case a:case d:return l(g+"Hours",0);case u:return l(g+"Minutes",1);case s:return l(g+"Seconds",2);case i:return l(g+"Milliseconds",3);default:return this.clone()}},m.endOf=function(t){return this.startOf(t,!1)},m.$set=function(t,e){var n,o=O.p(t),h="set"+(this.$u?"UTC":""),$=(n={},n[a]=h+"Date",n[d]=h+"Date",n[f]=h+"Month",n[c]=h+"FullYear",n[u]=h+"Hours",n[s]=h+"Minutes",n[i]=h+"Seconds",n[r]=h+"Milliseconds",n)[o],l=o===a?this.$D+(e-this.$W):e;if(o===f||o===c){var y=this.clone().set(d,1);y.$d[$](l),y.init(),this.$d=y.set(d,Math.min(this.$D,y.daysInMonth())).$d}else $&&this.$d[$](l);return this.init(),this},m.set=function(t,e){return this.clone().$set(t,e)},m.get=function(t){return this[O.p(t)]()},m.add=function(r,h){var d,$=this;r=Number(r);var l=O.p(h),y=function(t){var e=w($);return O.w(e.date(e.date()+Math.round(t*r)),$)};if(l===f)return this.set(f,this.$M+r);if(l===c)return this.set(c,this.$y+r);if(l===a)return y(1);if(l===o)return y(7);var M=(d={},d[s]=e,d[u]=n,d[i]=t,d)[l]||1,m=this.$d.getTime()+r*M;return O.w(m,this)},m.subtract=function(t,e){return this.add(-1*t,e)},m.format=function(t){var e=this,n=this.$locale();if(!this.isValid())return n.invalidDate||$;var r=t||"YYYY-MM-DDTHH:mm:ssZ",i=O.z(this),s=this.$H,u=this.$m,a=this.$M,o=n.weekdays,f=n.months,h=function(t,n,i,s){return t&&(t[n]||t(e,r))||i[n].slice(0,s)},c=function(t){return O.s(s%12||12,t,"0")},d=n.meridiem||function(t,e,n){var r=t<12?"AM":"PM";return n?r.toLowerCase():r},l={YY:String(this.$y).slice(-2),YYYY:this.$y,M:a+1,MM:O.s(a+1,2,"0"),MMM:h(n.monthsShort,a,f,3),MMMM:h(f,a),D:this.$D,DD:O.s(this.$D,2,"0"),d:String(this.$W),dd:h(n.weekdaysMin,this.$W,o,2),ddd:h(n.weekdaysShort,this.$W,o,3),dddd:o[this.$W],H:String(s),HH:O.s(s,2,"0"),h:c(1),hh:c(2),a:d(s,u,!0),A:d(s,u,!1),m:String(u),mm:O.s(u,2,"0"),s:String(this.$s),ss:O.s(this.$s,2,"0"),SSS:O.s(this.$ms,3,"0"),Z:i};return r.replace(y,(function(t,e){return e||l[t]||i.replace(":","")}))},m.utcOffset=function(){return 15*-Math.round(this.$d.getTimezoneOffset()/15)},m.diff=function(r,d,$){var l,y=O.p(d),M=w(r),m=(M.utcOffset()-this.utcOffset())*e,g=this-M,v=O.m(this,M);return v=(l={},l[c]=v/12,l[f]=v,l[h]=v/3,l[o]=(g-m)/6048e5,l[a]=(g-m)/864e5,l[u]=g/n,l[s]=g/e,l[i]=g/t,l)[y]||g,$?v:O.a(v)},m.daysInMonth=function(){return this.endOf(f).$D},m.$locale=function(){return D[this.$L]},m.locale=function(t,e){if(!t)return this.$L;var n=this.clone(),r=S(t,e,!0);return r&&(n.$L=r),n},m.clone=function(){return O.w(this.$d,this)},m.toDate=function(){return new Date(this.valueOf())},m.toJSON=function(){return this.isValid()?this.toISOString():null},m.toISOString=function(){return this.$d.toISOString()},m.toString=function(){return this.$d.toUTCString()},M}(),T=_.prototype;return w.prototype=T,[["$ms",r],["$s",i],["$m",s],["$H",u],["$W",a],["$M",f],["$y",c],["$D",d]].forEach((function(t){T[t[1]]=function(e){return this.$g(e,t[0],t[1])}})),w.extend=function(t,e){return t.$i||(t(e,_,w),t.$i=!0),w},w.locale=S,w.isDayjs=p,w.unix=function(t){return w(1e3*t)},w.en=D[v],w.Ls=D,w.p={},w}));
+
+/***/ }),
+
 /***/ "./node_modules/firebase/app/dist/index.esm.js":
 /*!*****************************************************!*\
   !*** ./node_modules/firebase/app/dist/index.esm.js ***!
   \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "FirebaseError": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__.FirebaseError),
@@ -31611,6 +31797,7 @@ var version = "9.8.4";
   \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ActionCodeOperation": () => (/* reexport safe */ _firebase_auth__WEBPACK_IMPORTED_MODULE_0__.ActionCodeOperation),
@@ -31706,6 +31893,7 @@ __webpack_require__.r(__webpack_exports__);
   \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AbstractUserDataWriter": () => (/* reexport safe */ _firebase_firestore__WEBPACK_IMPORTED_MODULE_0__.AbstractUserDataWriter),
@@ -31797,12 +31985,380 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/style/style.css":
+/*!*****************************!*\
+  !*** ./src/style/style.css ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./style.css */ "./node_modules/css-loader/dist/cjs.js!./src/style/style.css");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+var stylesInDOM = [];
+
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+
+  for (var i = 0; i < stylesInDOM.length; i++) {
+    if (stylesInDOM[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+
+  return result;
+}
+
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var indexByIdentifier = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3],
+      supports: item[4],
+      layer: item[5]
+    };
+
+    if (indexByIdentifier !== -1) {
+      stylesInDOM[indexByIdentifier].references++;
+      stylesInDOM[indexByIdentifier].updater(obj);
+    } else {
+      var updater = addElementStyle(obj, options);
+      options.byIndex = i;
+      stylesInDOM.splice(i, 0, {
+        identifier: identifier,
+        updater: updater,
+        references: 1
+      });
+    }
+
+    identifiers.push(identifier);
+  }
+
+  return identifiers;
+}
+
+function addElementStyle(obj, options) {
+  var api = options.domAPI(options);
+  api.update(obj);
+
+  var updater = function updater(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {
+        return;
+      }
+
+      api.update(obj = newObj);
+    } else {
+      api.remove();
+    }
+  };
+
+  return updater;
+}
+
+module.exports = function (list, options) {
+  options = options || {};
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDOM[index].references--;
+    }
+
+    var newLastIdentifiers = modulesToDom(newList, options);
+
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+
+      var _index = getIndexByIdentifier(_identifier);
+
+      if (stylesInDOM[_index].references === 0) {
+        stylesInDOM[_index].updater();
+
+        stylesInDOM.splice(_index, 1);
+      }
+    }
+
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/insertBySelector.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
+  \********************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+var memo = {};
+/* istanbul ignore next  */
+
+function getTarget(target) {
+  if (typeof memo[target] === "undefined") {
+    var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+      try {
+        // This will throw an exception if access to iframe is blocked
+        // due to cross-origin restrictions
+        styleTarget = styleTarget.contentDocument.head;
+      } catch (e) {
+        // istanbul ignore next
+        styleTarget = null;
+      }
+    }
+
+    memo[target] = styleTarget;
+  }
+
+  return memo[target];
+}
+/* istanbul ignore next  */
+
+
+function insertBySelector(insert, style) {
+  var target = getTarget(insert);
+
+  if (!target) {
+    throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+  }
+
+  target.appendChild(style);
+}
+
+module.exports = insertBySelector;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/insertStyleElement.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+/* istanbul ignore next  */
+function insertStyleElement(options) {
+  var element = document.createElement("style");
+  options.setAttributes(element, options.attributes);
+  options.insert(element, options.options);
+  return element;
+}
+
+module.exports = insertStyleElement;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
+  \**********************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+/* istanbul ignore next  */
+function setAttributesWithoutAttributes(styleElement) {
+  var nonce =  true ? __webpack_require__.nc : 0;
+
+  if (nonce) {
+    styleElement.setAttribute("nonce", nonce);
+  }
+}
+
+module.exports = setAttributesWithoutAttributes;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/styleDomAPI.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
+  \***************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+/* istanbul ignore next  */
+function apply(styleElement, options, obj) {
+  var css = "";
+
+  if (obj.supports) {
+    css += "@supports (".concat(obj.supports, ") {");
+  }
+
+  if (obj.media) {
+    css += "@media ".concat(obj.media, " {");
+  }
+
+  var needLayer = typeof obj.layer !== "undefined";
+
+  if (needLayer) {
+    css += "@layer".concat(obj.layer.length > 0 ? " ".concat(obj.layer) : "", " {");
+  }
+
+  css += obj.css;
+
+  if (needLayer) {
+    css += "}";
+  }
+
+  if (obj.media) {
+    css += "}";
+  }
+
+  if (obj.supports) {
+    css += "}";
+  }
+
+  var sourceMap = obj.sourceMap;
+
+  if (sourceMap && typeof btoa !== "undefined") {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  options.styleTagTransform(css, styleElement, options.options);
+}
+
+function removeStyleElement(styleElement) {
+  // istanbul ignore if
+  if (styleElement.parentNode === null) {
+    return false;
+  }
+
+  styleElement.parentNode.removeChild(styleElement);
+}
+/* istanbul ignore next  */
+
+
+function domAPI(options) {
+  var styleElement = options.insertStyleElement(options);
+  return {
+    update: function update(obj) {
+      apply(styleElement, options, obj);
+    },
+    remove: function remove() {
+      removeStyleElement(styleElement);
+    }
+  };
+}
+
+module.exports = domAPI;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/styleTagTransform.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
+  \*********************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+/* istanbul ignore next  */
+function styleTagTransform(css, styleElement) {
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = css;
+  } else {
+    while (styleElement.firstChild) {
+      styleElement.removeChild(styleElement.firstChild);
+    }
+
+    styleElement.appendChild(document.createTextNode(css));
+  }
+}
+
+module.exports = styleTagTransform;
+
+/***/ }),
+
 /***/ "./node_modules/tslib/tslib.es6.js":
 /*!*****************************************!*\
   !*** ./node_modules/tslib/tslib.es6.js ***!
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "__assign": () => (/* binding */ __assign),
@@ -32083,104 +32639,1183 @@ function __classPrivateFieldIn(state, receiver) {
 
 /***/ }),
 
-/***/ "./src/ui.js":
-/*!*******************!*\
-  !*** ./src/ui.js ***!
-  \*******************/
+/***/ "./src/modules/app.js":
+/*!****************************!*\
+  !*** ./src/modules/app.js ***!
+  \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "setUpApp": () => (/* binding */ setUpApp),
+/* harmony export */   "toDoList": () => (/* binding */ toDoList)
+/* harmony export */ });
+/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! firebase/app */ "./node_modules/firebase/app/dist/index.esm.js");
+/* harmony import */ var firebase_firestore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! firebase/firestore */ "./node_modules/firebase/firestore/dist/index.esm.js");
+/* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! firebase/auth */ "./node_modules/firebase/auth/dist/index.esm.js");
+/* harmony import */ var _authentication__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./authentication */ "./src/modules/authentication.js");
+/* harmony import */ var _storage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./storage */ "./src/modules/storage.js");
+/* harmony import */ var _todolist__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./todolist */ "./src/modules/todolist.js");
+/* harmony import */ var _dashboardUI__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dashboardUI */ "./src/modules/dashboardUI.js");
+
+
+
+
+
+
+
+
+const firebaseConfig = {
+    apiKey: "AIzaSyD6jVeINfZZu_h50AkpzvbPGwaAmXhwUwo",
+    authDomain: "todolist-367b7.firebaseapp.com",
+    projectId: "todolist-367b7",
+    storageBucket: "todolist-367b7.appspot.com",
+    messagingSenderId: "308947241325",
+    appId: "1:308947241325:web:d6cc5db2dd46102b5ab264"
+}
+
+const toDoList = new _todolist__WEBPACK_IMPORTED_MODULE_5__.ToDoList();
+
+const setUpApp = () => {
+    const app = (0,firebase_app__WEBPACK_IMPORTED_MODULE_0__.initializeApp)(firebaseConfig);
+    const auth = (0,firebase_auth__WEBPACK_IMPORTED_MODULE_2__.getAuth)(app);
+    const db = (0,firebase_firestore__WEBPACK_IMPORTED_MODULE_1__.getFirestore)(app);
+    (0,_storage__WEBPACK_IMPORTED_MODULE_4__.setUpFirestore)(db);
+    (0,_authentication__WEBPACK_IMPORTED_MODULE_3__.setUpAuth)(auth);
+    (0,_dashboardUI__WEBPACK_IMPORTED_MODULE_6__.initializeDashboard)();
+}
+
+
+
+/***/ }),
+
+/***/ "./src/modules/authentication.js":
+/*!***************************************!*\
+  !*** ./src/modules/authentication.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "createAccount": () => (/* binding */ createAccount),
+/* harmony export */   "getUser": () => (/* binding */ getUser),
+/* harmony export */   "getUserId": () => (/* binding */ getUserId),
+/* harmony export */   "logOut": () => (/* binding */ logOut),
+/* harmony export */   "loginEmailPassword": () => (/* binding */ loginEmailPassword),
+/* harmony export */   "monitorAuthState": () => (/* binding */ monitorAuthState),
+/* harmony export */   "setUpAuth": () => (/* binding */ setUpAuth)
+/* harmony export */ });
+/* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! firebase/auth */ "./node_modules/firebase/auth/dist/index.esm.js");
+/* harmony import */ var _ui__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ui */ "./src/modules/ui.js");
+/* harmony import */ var _storage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./storage */ "./src/modules/storage.js");
+/* harmony import */ var _todolistUI__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./todolistUI */ "./src/modules/todolistUI.js");
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app */ "./src/modules/app.js");
+/* harmony import */ var _dashboardUI__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./dashboardUI */ "./src/modules/dashboardUI.js");
+
+
+
+
+
+
+
+
+
+const hideLoginError = () => {
+    _ui__WEBPACK_IMPORTED_MODULE_1__.lblLoginErrorMessage.classList.remove('active');
+}
+
+const showLoginError = (error) => {
+    _ui__WEBPACK_IMPORTED_MODULE_1__.lblLoginErrorMessage.classList.add('active')
+    if (error.code == firebase_auth__WEBPACK_IMPORTED_MODULE_0__.AuthErrorCodes.INVALID_PASSWORD) {
+        _ui__WEBPACK_IMPORTED_MODULE_1__.lblLoginErrorMessage.innerHTML = `Invalid password. Try again.`
+    } else if (error.code == firebase_auth__WEBPACK_IMPORTED_MODULE_0__.AuthErrorCodes.NULL_USER) {
+        _ui__WEBPACK_IMPORTED_MODULE_1__.lblLoginErrorMessage.innerHTML = `This user doesn't exist. Try again.`
+    } else if (error.code == firebase_auth__WEBPACK_IMPORTED_MODULE_0__.AuthErrorCodes.INVALID_EMAIL) {
+        _ui__WEBPACK_IMPORTED_MODULE_1__.lblLoginErrorMessage.innerHTML = `Invalid email address. Try again.`
+    } else if (error.code == firebase_auth__WEBPACK_IMPORTED_MODULE_0__.AuthErrorCodes.WEAK_PASSWORD) {
+        _ui__WEBPACK_IMPORTED_MODULE_1__.lblLoginErrorMessage.innerHTML = `Password should be at least 6 characters. Try again.`
+    } else if (error.code == firebase_auth__WEBPACK_IMPORTED_MODULE_0__.AuthErrorCodes.CREDENTIAL_ALREADY_IN_USE) {
+        _ui__WEBPACK_IMPORTED_MODULE_1__.lblLoginErrorMessage.innerHTML = `User credentials already taken. Try again.`
+    } else {
+        _ui__WEBPACK_IMPORTED_MODULE_1__.lblLoginErrorMessage.innerHTML = 'Try again!'
+    }
+}
+
+const showLoginState = (user) => {
+    _ui__WEBPACK_IMPORTED_MODULE_1__.userGreeting.innerHTML = `Welcome ${user.email}!`;
+    _ui__WEBPACK_IMPORTED_MODULE_1__.userGreeting.classList.remove('inactive');
+    _ui__WEBPACK_IMPORTED_MODULE_1__.userGreeting.classList.add('active');
+
+    _ui__WEBPACK_IMPORTED_MODULE_1__.logOutBtn.classList.remove('inactive');
+    _ui__WEBPACK_IMPORTED_MODULE_1__.logOutBtn.classList.add('active');
+
+    _ui__WEBPACK_IMPORTED_MODULE_1__.openLogInModalBtn.classList.remove('active');
+    _ui__WEBPACK_IMPORTED_MODULE_1__.openLogInModalBtn.classList.add('inactive');
+    (0,_dashboardUI__WEBPACK_IMPORTED_MODULE_5__.resetLogInModal)();
+}
+
+const showLogOutState = () => {
+    _ui__WEBPACK_IMPORTED_MODULE_1__.userGreeting.classList.add('inactive');
+    _ui__WEBPACK_IMPORTED_MODULE_1__.userGreeting.classList.remove('active');
+
+    _ui__WEBPACK_IMPORTED_MODULE_1__.logOutBtn.classList.add('inactive');
+    _ui__WEBPACK_IMPORTED_MODULE_1__.logOutBtn.classList.remove('active');
+
+    _ui__WEBPACK_IMPORTED_MODULE_1__.openLogInModalBtn.classList.add('active');
+    _ui__WEBPACK_IMPORTED_MODULE_1__.openLogInModalBtn.classList.remove('inactive');
+    (0,_dashboardUI__WEBPACK_IMPORTED_MODULE_5__.resetLogInModal)();
+}
+
+let auth;
+let currentUser;
+let currentUserId;
+
+const getUser = () => currentUser;
+const getUserId = () => currentUserId;
+
+const restartApp = () => {
+    localStorage.removeItem('lastSelectedGroup');
+    (0,_dashboardUI__WEBPACK_IMPORTED_MODULE_5__.updateProjectList)();
+    (0,_todolistUI__WEBPACK_IMPORTED_MODULE_3__.updateTaskList)(_app__WEBPACK_IMPORTED_MODULE_4__.toDoList.list);
+    (0,_todolistUI__WEBPACK_IMPORTED_MODULE_3__.updateTaskGroupCount)();
+}
+
+const monitorAuthState = () => {
+    let unsubscribe = (0,firebase_auth__WEBPACK_IMPORTED_MODULE_0__.onAuthStateChanged)(auth, user => {
+        if (user) {
+            currentUser = user;
+            currentUserId = user.uid;
+            showLoginState(user);
+            (0,_storage__WEBPACK_IMPORTED_MODULE_2__.restoreFirestore)(user.uid)
+            .then(() => {
+                restartApp();
+            })
+            .catch((e) => {
+                console.log('No storage set up yet for current user!');
+            });
+        } else {
+            showLogOutState();
+            (0,_storage__WEBPACK_IMPORTED_MODULE_2__.restoreLocalStorage)();
+            restartApp();
+        }
+        console.log(_app__WEBPACK_IMPORTED_MODULE_4__.toDoList.list);
+    });
+    unsubscribe();
+}
+
+const loginEmailPassword = async () => {
+    const loginEmail = _ui__WEBPACK_IMPORTED_MODULE_1__.emailTxt.value;
+    const loginPassword = _ui__WEBPACK_IMPORTED_MODULE_1__.passwordTxt.value;
+    try {
+        const userCredentials = await (0,firebase_auth__WEBPACK_IMPORTED_MODULE_0__.signInWithEmailAndPassword)(auth, loginEmail,
+            loginPassword);
+        const user = userCredentials.user;
+        currentUser = user;
+        currentUserId = user.uid;
+        _ui__WEBPACK_IMPORTED_MODULE_1__.taskList.innerHTML = '';
+        (0,_dashboardUI__WEBPACK_IMPORTED_MODULE_5__.closeLogInModal)();
+        hideLoginError();
+        monitorAuthState();
+    } catch (error) {
+        showLoginError(error);
+    }
+};
+
+const createAccount = async () => {
+    const loginEmail = _ui__WEBPACK_IMPORTED_MODULE_1__.emailTxt.value;
+    const loginPassword = _ui__WEBPACK_IMPORTED_MODULE_1__.passwordTxt.value;
+    try {
+        const userCredentials = await (0,firebase_auth__WEBPACK_IMPORTED_MODULE_0__.createUserWithEmailAndPassword)(auth, loginEmail,
+            loginPassword);
+        const user = userCredentials.user;
+        currentUser = user;
+        currentUserId = user.uid;
+        _ui__WEBPACK_IMPORTED_MODULE_1__.taskList.innerHTML = ''
+        ;(0,_dashboardUI__WEBPACK_IMPORTED_MODULE_5__.closeLogInModal)();
+        hideLoginError();
+        monitorAuthState();
+    } catch (error) {
+        showLoginError(error);
+    }
+};
+
+const logOut = async () => {
+    try {
+        await (0,firebase_auth__WEBPACK_IMPORTED_MODULE_0__.signOut)(auth);
+        _ui__WEBPACK_IMPORTED_MODULE_1__.taskList.innerHTML = ''
+        console.log('Signed out!')
+        currentUser = null;
+        currentUserId = '';
+        monitorAuthState();
+    } catch (e) {
+        console.log('No user signed in!')
+    }
+}
+
+const setUpAuth = (a) => {
+    auth = a;
+}
+
+/***/ }),
+
+/***/ "./src/modules/dashboardUI.js":
+/*!************************************!*\
+  !*** ./src/modules/dashboardUI.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "closeLogInModal": () => (/* binding */ closeLogInModal),
+/* harmony export */   "initializeDashboard": () => (/* binding */ initializeDashboard),
+/* harmony export */   "openAddTaskModal": () => (/* binding */ openAddTaskModal),
+/* harmony export */   "openLogInModal": () => (/* binding */ openLogInModal),
+/* harmony export */   "resetLogInModal": () => (/* binding */ resetLogInModal),
+/* harmony export */   "updateProjectList": () => (/* binding */ updateProjectList)
+/* harmony export */ });
+/* harmony import */ var _ui__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ui */ "./src/modules/ui.js");
+/* harmony import */ var _authentication__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./authentication */ "./src/modules/authentication.js");
+/* harmony import */ var _todolistUI__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./todolistUI */ "./src/modules/todolistUI.js");
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app */ "./src/modules/app.js");
+/* harmony import */ var _todolist__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./todolist */ "./src/modules/todolist.js");
+
+
+
+
+
+
+const toggleDashboard = () => {
+    if (_ui__WEBPACK_IMPORTED_MODULE_0__.dashBoard.classList.contains('active')) {
+        _ui__WEBPACK_IMPORTED_MODULE_0__.dashBoard.classList.remove('active');
+        _ui__WEBPACK_IMPORTED_MODULE_0__.dashBoard.classList.add('inactive');
+    } else {
+        _ui__WEBPACK_IMPORTED_MODULE_0__.dashBoard.classList.remove('inactive');
+        _ui__WEBPACK_IMPORTED_MODULE_0__.dashBoard.classList.add('active');
+    }
+}
+
+const resetLogInModal = () => {
+    _ui__WEBPACK_IMPORTED_MODULE_0__.emailTxt.textContent = '';
+    _ui__WEBPACK_IMPORTED_MODULE_0__.passwordTxt.textContent = '';
+}
+
+const openLogInModal = () => {
+  _ui__WEBPACK_IMPORTED_MODULE_0__.overlay.classList.remove('inactive');
+  _ui__WEBPACK_IMPORTED_MODULE_0__.logInModal.classList.remove('inactive')
+
+  _ui__WEBPACK_IMPORTED_MODULE_0__.overlay.classList.add('active');
+  _ui__WEBPACK_IMPORTED_MODULE_0__.logInModal.classList.add('active');
+  resetLogInModal();
+}
+
+const closeLogInModal = () => {
+  _ui__WEBPACK_IMPORTED_MODULE_0__.overlay.classList.remove('active');
+  _ui__WEBPACK_IMPORTED_MODULE_0__.logInModal.classList.remove('active')
+
+  _ui__WEBPACK_IMPORTED_MODULE_0__.overlay.classList.add('inactive');
+  _ui__WEBPACK_IMPORTED_MODULE_0__.logInModal.classList.add('inactive');
+}
+
+const toggleTaskProjectPanel = () => {
+    _ui__WEBPACK_IMPORTED_MODULE_0__.taskProjectSelect.innerHTML = '';
+    let option = document.createElement('option');
+    option.value = 'None';
+    option.textContent = 'None';
+    _ui__WEBPACK_IMPORTED_MODULE_0__.taskProjectSelect.appendChild(option)
+    _app__WEBPACK_IMPORTED_MODULE_3__.toDoList.projects.map(i => {
+        let option = document.createElement('option');
+        option.value = i;
+        option.textContent = i;
+        _ui__WEBPACK_IMPORTED_MODULE_0__.taskProjectSelect.appendChild(option);
+    });
+}
+
+const resetAddTaskModal = () => {
+    _ui__WEBPACK_IMPORTED_MODULE_0__.taskDueDate.innerHTML = "";
+    _ui__WEBPACK_IMPORTED_MODULE_0__.taskTitle.innerHTML = "";
+    _ui__WEBPACK_IMPORTED_MODULE_0__.taskDescription.innerHTML = "";
+    _ui__WEBPACK_IMPORTED_MODULE_0__.taskPriorities[0].checked = true;
+    toggleTaskProjectPanel();
+    
+    _ui__WEBPACK_IMPORTED_MODULE_0__.doneBtn.classList.remove('active');
+    _ui__WEBPACK_IMPORTED_MODULE_0__.doneBtn.classList.add('inactive');
+
+    _ui__WEBPACK_IMPORTED_MODULE_0__.addTaskBtn.classList.add('active');
+    _ui__WEBPACK_IMPORTED_MODULE_0__.addTaskBtn.classList.remove('inactive');
+
+    _ui__WEBPACK_IMPORTED_MODULE_0__.addTaskForm.childNodes[3].textContent = 'Create a new task:';
+}
+
+const openAddTaskModal = () => {
+  _ui__WEBPACK_IMPORTED_MODULE_0__.overlay.classList.remove('inactive');
+  _ui__WEBPACK_IMPORTED_MODULE_0__.addTaskModal.classList.remove('inactive')
+
+  _ui__WEBPACK_IMPORTED_MODULE_0__.overlay.classList.add('active');
+  _ui__WEBPACK_IMPORTED_MODULE_0__.addTaskModal.classList.add('active');
+  resetAddTaskModal();
+}
+
+const closeAddTaskModal = () => {
+  _ui__WEBPACK_IMPORTED_MODULE_0__.overlay.classList.remove('active');
+  _ui__WEBPACK_IMPORTED_MODULE_0__.addTaskModal.classList.remove('active')
+
+  _ui__WEBPACK_IMPORTED_MODULE_0__.overlay.classList.add('inactive');
+  _ui__WEBPACK_IMPORTED_MODULE_0__.addTaskModal.classList.add('inactive');
+}
+
+const openAddProjectForm = () => {
+  _ui__WEBPACK_IMPORTED_MODULE_0__.addProjectForm.classList.remove('inactive');
+  _ui__WEBPACK_IMPORTED_MODULE_0__.addProjectForm.classList.add('active');
+}
+
+const closeAddProjectForm = () => {
+  _ui__WEBPACK_IMPORTED_MODULE_0__.addProjectForm.classList.remove('active');
+  _ui__WEBPACK_IMPORTED_MODULE_0__.addProjectForm.classList.add('inactive');
+}
+
+const createNewProjectElement = (name) => {
+    let div = document.createElement('div');
+    div.classList.add('task-group');
+    div.onclick = showTasksForSelectedGroup;
+
+    let projectName = document.createElement('h5');
+    projectName.textContent = name;
+
+    const count = document.createElement('p');
+    count.textContent = 0;
+
+    div.appendChild(projectName);
+    div.appendChild(count);
+    _ui__WEBPACK_IMPORTED_MODULE_0__.projectList.appendChild(div);
+
+    _ui__WEBPACK_IMPORTED_MODULE_0__.collapseBtn.style.pointerEvents = 'all';
+}
+
+const addNewProject = (e) => {
+    e.preventDefault();
+    const successful = _app__WEBPACK_IMPORTED_MODULE_3__.toDoList.addProject(_ui__WEBPACK_IMPORTED_MODULE_0__.projectName.value);
+    if (successful) {
+        (0,_todolistUI__WEBPACK_IMPORTED_MODULE_2__.saveData)();
+        createNewProjectElement(_ui__WEBPACK_IMPORTED_MODULE_0__.projectName.value);
+        closeAddProjectForm();
+    } else {
+        alert('Project already exists!');
+    }
+}
+
+const addNewTask = (e) => {
+    e.preventDefault();
+    const successful = (0,_todolistUI__WEBPACK_IMPORTED_MODULE_2__.addTask)();
+    if (successful) {
+        closeAddTaskModal();
+    } else {
+        alert('Task with this title already exist!');
+    }
+}
+
+const updateTask = (e) => {
+    e.preventDefault();
+
+    let stored = localStorage.getItem('taskForEdit');
+    if (stored) {
+        const task = _app__WEBPACK_IMPORTED_MODULE_3__.toDoList.getTaskByTitle(JSON.parse(stored));
+        const index = _app__WEBPACK_IMPORTED_MODULE_3__.toDoList.indexOf(JSON.parse(stored));
+        const newTask = (0,_todolistUI__WEBPACK_IMPORTED_MODULE_2__.getInput)();
+
+        task.update(newTask);
+        (0,_todolistUI__WEBPACK_IMPORTED_MODULE_2__.updateTaskCard)(index, task);
+    }
+
+    closeAddTaskModal();
+}
+
+const updateProjectList = () => {
+    _ui__WEBPACK_IMPORTED_MODULE_0__.projectList.innerHTML = '';
+    for (let p of _app__WEBPACK_IMPORTED_MODULE_3__.toDoList.projects) {
+        createNewProjectElement(p);
+    }
+    if (_app__WEBPACK_IMPORTED_MODULE_3__.toDoList.projects.length === 0) {
+        _ui__WEBPACK_IMPORTED_MODULE_0__.collapseBtn.style.pointerEvents = 'none';
+    } else {
+        _ui__WEBPACK_IMPORTED_MODULE_0__.collapseBtn.style.pointerEvents = 'all';
+    }
+}
+
+const toggleProjectList = () => {
+    if (_ui__WEBPACK_IMPORTED_MODULE_0__.projectList.classList.contains('active')) {
+        _ui__WEBPACK_IMPORTED_MODULE_0__.projectList.classList.remove('active');
+        _ui__WEBPACK_IMPORTED_MODULE_0__.projectList.classList.add('inactive');
+    } else {
+        _ui__WEBPACK_IMPORTED_MODULE_0__.projectList.classList.remove('inactive');
+        _ui__WEBPACK_IMPORTED_MODULE_0__.projectList.classList.add('active');
+    }
+}
+
+const showTasksByGroupName = (groupName) => {
+    if (groupName === 'All Tasks') {
+        (0,_todolistUI__WEBPACK_IMPORTED_MODULE_2__.updateTaskList)(_app__WEBPACK_IMPORTED_MODULE_3__.toDoList.list, groupName);
+    } else if (groupName === 'Today') {
+        (0,_todolistUI__WEBPACK_IMPORTED_MODULE_2__.updateTaskList)(_app__WEBPACK_IMPORTED_MODULE_3__.toDoList.getTodayTasks(), groupName);
+    } else if (groupName === 'This Week') {
+        (0,_todolistUI__WEBPACK_IMPORTED_MODULE_2__.updateTaskList)(_app__WEBPACK_IMPORTED_MODULE_3__.toDoList.getThisWeekTasks(), groupName);
+    } else {
+        (0,_todolistUI__WEBPACK_IMPORTED_MODULE_2__.updateTaskList)(_app__WEBPACK_IMPORTED_MODULE_3__.toDoList.getTasksByCategory(groupName), groupName);
+    }
+}
+
+function highLightSelectedGroup(taskDiv) {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            taskDiv.classList.add('selected');
+            resolve('resolved');
+        }, 500);
+    })
+}
+
+const showTasksForSelectedGroup = (e) => {
+    const groupName = e.target.textContent;
+    let taskDiv = Array.prototype.filter.call(_ui__WEBPACK_IMPORTED_MODULE_0__.taskGroups, 
+        i => i.classList.contains('selected'));
+
+    if (taskDiv.length != 0) {
+        taskDiv[0].classList.remove('selected');
+    }    
+    
+    taskDiv = e.target.parentNode;
+    highLightSelectedGroup(taskDiv)
+    .then(() => showTasksByGroupName(groupName));
+
+    localStorage.setItem('lastSelectedGroup', JSON.stringify(groupName));
+}
+
+const sortTaskCards = () => (0,_todolistUI__WEBPACK_IMPORTED_MODULE_2__.sortTasks)();
+
+const initializeDashboard = () => {
+    _ui__WEBPACK_IMPORTED_MODULE_0__.toggleDashboardBtn.onclick = toggleDashboard;
+
+    _ui__WEBPACK_IMPORTED_MODULE_0__.openLogInModalBtn.onclick = openLogInModal;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.closeLogInModalBtn.onclick = closeLogInModal;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.logInBtn.onclick = _authentication__WEBPACK_IMPORTED_MODULE_1__.loginEmailPassword;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.logOutBtn.onclick = _authentication__WEBPACK_IMPORTED_MODULE_1__.logOut;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.signUpBtn.onclick = _authentication__WEBPACK_IMPORTED_MODULE_1__.createAccount;
+
+    _ui__WEBPACK_IMPORTED_MODULE_0__.openAddProjectFormBtn.onclick = openAddProjectForm;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.closeAddProjectFormBtn.onclick = closeAddProjectForm;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.addProjectForm.onsubmit = addNewProject;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.collapseBtn.onclick = toggleProjectList;
+    Array.prototype.map.call(_ui__WEBPACK_IMPORTED_MODULE_0__.taskGroups, 
+        i => i.onclick = showTasksForSelectedGroup);
+
+    _ui__WEBPACK_IMPORTED_MODULE_0__.openAddTaskModalBtn.onclick = openAddTaskModal;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.closeAddTaskModalBtn.onclick = closeAddTaskModal;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.taskDueDate.setAttribute('min', (0,_todolist__WEBPACK_IMPORTED_MODULE_4__.getToday)());
+    _ui__WEBPACK_IMPORTED_MODULE_0__.addTaskForm.onsubmit = addNewTask;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.doneBtn.onclick = updateTask;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.cancelAddTaskBtn.onclick = closeAddTaskModal;
+
+    _ui__WEBPACK_IMPORTED_MODULE_0__.sortTasksSelect.onchange = sortTaskCards;
+}
+
+/***/ }),
+
+/***/ "./src/modules/storage.js":
+/*!********************************!*\
+  !*** ./src/modules/storage.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "restoreFirestore": () => (/* binding */ restoreFirestore),
+/* harmony export */   "restoreLocalStorage": () => (/* binding */ restoreLocalStorage),
+/* harmony export */   "saveFirestore": () => (/* binding */ saveFirestore),
+/* harmony export */   "saveLocalStorage": () => (/* binding */ saveLocalStorage),
+/* harmony export */   "setUpFirestore": () => (/* binding */ setUpFirestore)
+/* harmony export */ });
+/* harmony import */ var firebase_firestore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! firebase/firestore */ "./node_modules/firebase/firestore/dist/index.esm.js");
+/* harmony import */ var _todoitem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./todoitem */ "./src/modules/todoitem.js");
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app */ "./src/modules/app.js");
+
+
+
+
+let db;
+
+const convertTaskToObj = (task) => {
+    return {
+        taskCategory: task.category,
+        taskTitle: task.title,
+        taskDescription: task.description,
+        taskDueDate: task.dueDate,
+        taskCompleteStatus: task.completeStatus,
+        taskPriority: task.priority
+    };
+}
+const convertListForStorage = (taskList) => {
+    return taskList.map(t => convertTaskToObj(t))
+}
+
+const convertStoredList = (list) => {
+    return list.map(i => 
+        new _todoitem__WEBPACK_IMPORTED_MODULE_1__.Task(i.taskCategory, 
+            i.taskTitle, 
+            i.taskDescription,
+            i.taskDueDate, 
+            i.taskCompleteStatus,
+            i.taskPriority));
+}
+
+const saveFirestore = async (uid) => {
+    try {
+        await (0,firebase_firestore__WEBPACK_IMPORTED_MODULE_0__.setDoc)((0,firebase_firestore__WEBPACK_IMPORTED_MODULE_0__.doc)(db, 'user', uid), 
+        {list: convertListForStorage(_app__WEBPACK_IMPORTED_MODULE_2__.toDoList.list),
+        projects: _app__WEBPACK_IMPORTED_MODULE_2__.toDoList.projects})
+    } catch (e) {
+        console.error('Error storing task list to Firebase: ', e);
+    }
+}
+
+const restoreFirestore = async (uid) => {
+    const docSnap = await (0,firebase_firestore__WEBPACK_IMPORTED_MODULE_0__.getDoc)((0,firebase_firestore__WEBPACK_IMPORTED_MODULE_0__.doc)(db, 'user', uid));
+    console.log(docSnap)
+    if (docSnap.exists()) {
+        _app__WEBPACK_IMPORTED_MODULE_2__.toDoList.list = convertStoredList(docSnap.data().list);
+        _app__WEBPACK_IMPORTED_MODULE_2__.toDoList.projects = docSnap.data().projects;
+    }  else {
+        _app__WEBPACK_IMPORTED_MODULE_2__.toDoList.list = [];
+        _app__WEBPACK_IMPORTED_MODULE_2__.toDoList.projects = [];
+    }
+}
+
+const saveLocalStorage = () => {
+    localStorage.setItem('taskList', JSON.stringify(
+        convertListForStorage(_app__WEBPACK_IMPORTED_MODULE_2__.toDoList.list)));
+    localStorage.setItem('taskProjects', JSON.stringify(_app__WEBPACK_IMPORTED_MODULE_2__.toDoList.projects));
+}
+
+const restoreLocalStorage = () => {
+    _app__WEBPACK_IMPORTED_MODULE_2__.toDoList.list = [];
+    let stored = localStorage.getItem('taskList');
+    if (stored) {
+        _app__WEBPACK_IMPORTED_MODULE_2__.toDoList.list = convertStoredList(JSON.parse(stored));
+    }
+    _app__WEBPACK_IMPORTED_MODULE_2__.toDoList.projects = [];
+    stored = localStorage.getItem('taskProjects');
+    if (stored) {
+        _app__WEBPACK_IMPORTED_MODULE_2__.toDoList.projects = JSON.parse(stored);
+    }
+}
+
+const setUpFirestore = (fs) => {
+    db = fs;
+}
+
+/***/ }),
+
+/***/ "./src/modules/todoitem.js":
+/*!*********************************!*\
+  !*** ./src/modules/todoitem.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Task": () => (/* binding */ Task)
+/* harmony export */ });
+class Task {
+    constructor(category = '',
+    title = '',
+    description = '',
+    date = 'yyyy-mm-dd',
+    completeStatus = false,
+    priority = 0){
+        this.taskCategory = category;
+        this.taskTitle = title;
+        this.taskDescription = description;
+        this.taskDueDate = date;
+        this.taskCompleteStatus = completeStatus;
+        this.taskPriority = priority;
+    }
+    get category() {
+        return this.taskCategory;
+    }
+    set category(newCategory) {
+        this.taskCategory = newCategory;
+    }
+    get title() {
+        return this.taskTitle;
+    }
+    set title(newTitle) {
+        this.title = newTitle;
+    }
+    get description() {
+        return this.taskDescription;
+    }
+    set description(newDescription) {
+        this.taskDescription = newDescription;
+    }
+    get dueDate() {
+        return this.taskDueDate;
+    }
+    set dueDate(newDueDate) {
+        this.taskDueDate = newDueDate;
+    }
+    get completeStatus() {
+        return this.taskCompleteStatus;
+    }
+    set completeStatus(completeStatus) {
+        this.taskCompleteStatus = completeStatus;
+    }
+    get priority() {
+        return this.taskPriority;
+    }
+    set priority(newPriority) {
+        this.taskPriority = newPriority;
+    }
+    update(newTask) {
+        this.taskCategory = newTask.category;
+        this.taskTitle = newTask.title;
+        this.taskDescription = newTask.description;
+        this.taskDueDate = newTask.dueDate;
+        this.taskCompleteStatus = newTask.completeStatus;
+        this.taskPriority = newTask.priority;
+    }
+}
+
+/***/ }),
+
+/***/ "./src/modules/todolist.js":
+/*!*********************************!*\
+  !*** ./src/modules/todolist.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ToDoList": () => (/* binding */ ToDoList),
+/* harmony export */   "getThisWeekDates": () => (/* binding */ getThisWeekDates),
+/* harmony export */   "getToday": () => (/* binding */ getToday)
+/* harmony export */ });
+const dayjs = __webpack_require__(/*! dayjs */ "./node_modules/dayjs/dayjs.min.js");
+
+const getToday = () => {
+    return dayjs().format('YYYY-MM-DD');
+}
+
+const getThisWeekDates = () => {
+    const week = [];
+    const today = dayjs();
+
+    for (let i = today.day(); i >= 0; i--) {
+        week.push(today.subtract(i, 'day').format('YYYY-MM-DD'));
+    } 
+    for (let i = today.day(); i < 6; i++) {
+        week.push(today.add(6 - i, 'day').format('YYYY-MM-DD'));
+    }
+    return week;
+}
+
+class ToDoList {
+    constructor() {
+        this.taskList = [];
+        this.taskProjects = [];
+    }
+    addTask(task) {
+        if (!this.taskAlreadyAdded(task)) {
+            this.taskList.unshift(task);
+            return true;
+        } else {
+            return false;
+        }
+    }
+    removeTask(taskTitle) {
+        if (this.taskList) {
+            this.taskList = this.taskList.filter(i =>
+                i.title !== taskTitle);
+            return true;
+        } else {
+            return false;
+        }
+    }
+    taskAlreadyAdded(task) {
+        for (let t of this.taskList) {
+            if (t.title === task.title) {
+                return true;
+            }
+        }
+        return false;
+    }
+    indexOf(title) {
+        return this.taskList.findIndex(i => i.title === title);
+    }
+    getTaskByTitle(title) {
+        return this.taskList.find(i => i.title === title);
+    }
+    getTasksByCategory(category) {
+        return this.taskList.filter(t => t.category === category);
+    }
+    setAllTasksIncomplete() {
+        for (let t of this.taskList) {
+            if (t.compeleteStatus) {
+                t.completeStatus = false;
+            }
+        }
+    }
+    get list() {
+        return this.taskList;
+    }
+    set list(l) {
+        this.taskList = l;
+    }
+    getCount() {
+        return this.taskList.length;
+    }
+    addProject(project) {
+        if (this.projects.find(p => p === project)) {
+            return false;
+        } else {
+            this.taskProjects.push(project);
+            return true;
+        }
+        
+    }
+    get projects() {
+        return this.taskProjects;
+    }
+    set projects(p) {
+        this.taskProjects = p;
+    }
+    getProject(index) {
+        return taskProjects[index];
+    }
+    getTodayTasks() {
+        const today = getToday();
+        return this.taskList.filter(t => t.dueDate === today);
+    }
+    getThisWeekTasks() {
+        const thisWeekTasks = [];
+        const thisWeekDates = getThisWeekDates();
+
+        for (let t of this.taskList) {
+            if (thisWeekDates.includes(t.dueDate)) {
+                thisWeekTasks.push(t);
+            }
+        }
+
+        return thisWeekTasks;
+    }
+    sortByPriority(order) {
+        const tasks = this.taskList.map(t => t);
+        if (order === 'lowhigh') {
+            return tasks.sort((t1, t2) => (t1.priority === t2.priority) ? 0 : 
+            (t1.priority < t2.priority ? -1 : 1));
+            
+        } else {
+            return tasks.sort((t1, t2) => (t1.priority === t2.priority) ? 0 : 
+            (t1.priority < t2.priority ? 1 : -1));
+        }
+    }
+    sortByTitle() {
+        const tasks = this.taskList.map(t => t);
+        return tasks.sort((t1, t2) => (t1.title === t2.title) ? 0 : 
+        (t1.title < t2.title ? -1 : 1));
+    }
+    sortByDueDate(order) {
+        const tasks = this.taskList.map(t => t);
+        if (order === 'ascending') {
+            return tasks.sort((t1, t2) => (dayjs(t1.dueDate).isSame(dayjs(t2.dueDate))) ? 
+                0 : (dayjs(t1.dueDate).isBefore(dayjs(t2.dueDate)) ? -1 : 1));
+        } else {
+            return tasks.sort((t1, t2) => (dayjs(t1.dueDate).isSame(dayjs(t2.dueDate))) ? 
+            0 : (dayjs(t1.dueDate).isBefore(dayjs(t2.dueDate)) ? 1 : -1));
+        }
+    }
+}
+
+/***/ }),
+
+/***/ "./src/modules/todolistUI.js":
+/*!***********************************!*\
+  !*** ./src/modules/todolistUI.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "addTask": () => (/* binding */ addTask),
+/* harmony export */   "getInput": () => (/* binding */ getInput),
+/* harmony export */   "saveData": () => (/* binding */ saveData),
+/* harmony export */   "sortTasks": () => (/* binding */ sortTasks),
+/* harmony export */   "updateTaskCard": () => (/* binding */ updateTaskCard),
+/* harmony export */   "updateTaskGroupCount": () => (/* binding */ updateTaskGroupCount),
+/* harmony export */   "updateTaskList": () => (/* binding */ updateTaskList)
+/* harmony export */ });
+/* harmony import */ var _ui__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ui */ "./src/modules/ui.js");
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app */ "./src/modules/app.js");
+/* harmony import */ var _authentication__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./authentication */ "./src/modules/authentication.js");
+/* harmony import */ var _storage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./storage */ "./src/modules/storage.js");
+/* harmony import */ var _dashboardUI__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./dashboardUI */ "./src/modules/dashboardUI.js");
+/* harmony import */ var _todoitem__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./todoitem */ "./src/modules/todoitem.js");
+
+
+
+
+
+
+
+const priorityColors = ['green', 'yellow', 'red'];
+
+const getInput = () => {
+    const taskDueDate = _ui__WEBPACK_IMPORTED_MODULE_0__.taskDueDate.value;
+    const taskTitle = _ui__WEBPACK_IMPORTED_MODULE_0__.taskTitle.value;
+    const taskDescription = _ui__WEBPACK_IMPORTED_MODULE_0__.taskDescription.value;
+    const taskPriority = Number.parseInt(Array.prototype.filter.call(
+        _ui__WEBPACK_IMPORTED_MODULE_0__.taskPriorities, i => i.checked)[0].value);
+    let taskCategory = '';
+
+    if (!_ui__WEBPACK_IMPORTED_MODULE_0__.taskProjectSelect.disabled){
+        taskCategory = _ui__WEBPACK_IMPORTED_MODULE_0__.taskProjectSelect.options[_ui__WEBPACK_IMPORTED_MODULE_0__.taskProjectSelect.selectedIndex].value;
+    }
+    return new _todoitem__WEBPACK_IMPORTED_MODULE_5__.Task(taskCategory, 
+        taskTitle, 
+        taskDescription, 
+        taskDueDate, 
+        false, 
+        taskPriority);
+}
+
+const addTask = () => {
+    const successful = _app__WEBPACK_IMPORTED_MODULE_1__.toDoList.addTask(getInput());
+    if (successful) {
+        saveData();
+
+        let stored = localStorage.getItem('lastSelectedGroup');
+        if (stored) {
+            sortTasks(JSON.parse(stored));
+        } else {
+            sortTasks();
+        }
+        
+        updateTaskGroupCount();
+    }
+    return successful;
+}
+
+const createTaskDisplay = (task) => {
+    const taskDisplay = document.createElement('div');
+    const taskCompleteStatus = document.createElement('input');
+    const taskTitle = document.createElement('p');
+    const taskDueDate = document.createElement('p');
+    const editBtn = document.createElement('button');
+    const deleteBtn = document.createElement('button');
+
+    taskCompleteStatus.classList.add('task-conplete-status');
+    taskTitle.classList.add('task-title');
+    taskDueDate.classList.add('task-due-date');
+    editBtn.classList.add('task-edit-btn');
+    deleteBtn.classList.add('task-delete-btn');
+    taskDisplay.classList.add('task-display');
+
+    taskCompleteStatus.setAttribute('type', 'checkbox')
+    if (task.completeStatus) {
+        taskCompleteStatus.checked = true;
+        taskDisplay.classList.add('complete')
+    } else {
+        taskCompleteStatus.checked = false;
+        taskDisplay.classList.remove('complete')
+    }
+    if (task.title.length < 180) {
+        taskTitle.textContent = task.title;
+    } else {
+        taskTitle.textContent = task.title.substring(0, 175) + '...';
+    }
+    
+    taskDueDate.textContent = task.dueDate;
+    editBtn.innerHTML = '<i class="fa fa-edit"></i>';
+    deleteBtn.innerHTML = '<i class="fa fa-trash"></i>';
+
+    taskCompleteStatus.onclick = toggleTaskCompleteStatus;
+    editBtn.onclick = editTask;
+    deleteBtn.onclick = removeTask;
+    taskDisplay.onclick = toggleDetailPanel;
+
+    taskDisplay.appendChild(taskCompleteStatus);
+    taskDisplay.appendChild(taskTitle);
+    taskDisplay.appendChild(taskDueDate);
+    taskDisplay.appendChild(editBtn);
+    taskDisplay.appendChild(deleteBtn);
+
+    return taskDisplay;
+}
+
+const createTaskDetailPanel = (task) => {
+    const detailPanel = document.createElement('div');
+    detailPanel.classList.add('detail-panel');
+    detailPanel.classList.add('invisible');
+
+    const detailPanelDescription = document.createElement('p');
+    const detailPanelDueDate = document.createElement('p');
+    const detailPanelPriority = document.createElement('p');
+    const collapseButton = document.createElement('button');
+
+    detailPanelDescription.textContent = `Description: ${task.description === '' 
+    ? 'None' : task.description}`;
+    detailPanelDueDate.textContent = `Due: ${task.dueDate}`;
+    detailPanelPriority.textContent = `Priority: ${['Low', 'Medium', 'High'][task.priority]}`;
+    collapseButton.textContent = 'Show Less';
+
+    collapseButton.classList.add('collapse');
+    collapseButton.onclick = toggleDetailPanel;
+    collapseButton.style.color = priorityColors[task.priority];
+
+    detailPanel.appendChild(detailPanelDescription);
+    detailPanel.appendChild(detailPanelDueDate);
+    detailPanel.appendChild(detailPanelPriority);
+    detailPanel.appendChild(collapseButton);
+
+    return detailPanel;
+}
+
+const createTaskCard = (task) => {
+    const taskCard = document.createElement('div');
+    taskCard.classList.add('task-card');
+    taskCard.style.borderLeftColor = priorityColors[task.priority];
+
+    taskCard.appendChild(createTaskDisplay(task));
+    taskCard.appendChild(createTaskDetailPanel(task));
+
+    return taskCard;
+}
+
+const updateTaskGroupCount = () => {
+    const taskGroups = document.getElementsByClassName('task-group');
+    for (let task of taskGroups) {
+        let groupName = task.childNodes[1].textContent;
+        if (groupName === 'All Tasks') {
+            task.getElementsByTagName('p')[0].textContent = _app__WEBPACK_IMPORTED_MODULE_1__.toDoList.list.length;
+        } else if (groupName === 'Today') {
+            task.getElementsByTagName('p')[0].textContent = _app__WEBPACK_IMPORTED_MODULE_1__.toDoList.getTodayTasks().length;
+        } else if (groupName === 'This Week') {
+            task.getElementsByTagName('p')[0].textContent = _app__WEBPACK_IMPORTED_MODULE_1__.toDoList.getThisWeekTasks().length;
+        } else {
+            groupName = task.childNodes[0].textContent;
+            task.getElementsByTagName('p')[0].textContent = _app__WEBPACK_IMPORTED_MODULE_1__.toDoList.getTasksByCategory(groupName).length;
+        }
+    }
+}
+
+const updateTaskCard = (taskIndex, newTask) => {
+    const taskDiv = document.getElementsByClassName('task')[taskIndex];
+
+    taskDiv.childNodes[1].textContent = newTask.title;
+    taskDiv.childNodes[2].textContent = newTask.dueDate;
+}
+
+const updateTaskList = (tasks, groupName='All Tasks') => {
+    _ui__WEBPACK_IMPORTED_MODULE_0__.taskGroupTitle.textContent = groupName;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.taskList.innerHTML = '';
+
+    if (tasks.length > 0) {
+        for (let task of tasks) {
+            _ui__WEBPACK_IMPORTED_MODULE_0__.taskList.appendChild(createTaskCard(task));
+        }
+    }
+}
+
+const editTask = (e) => {
+    const taskTitle = e.target.parentNode.parentNode.childNodes[1].innerHTML;
+    const task = _app__WEBPACK_IMPORTED_MODULE_1__.toDoList.getTaskByTitle(taskTitle);
+
+    (0,_dashboardUI__WEBPACK_IMPORTED_MODULE_4__.openAddTaskModal)();
+    _ui__WEBPACK_IMPORTED_MODULE_0__.addTaskForm.childNodes[3].textContent = 'Edit this task:';
+    _ui__WEBPACK_IMPORTED_MODULE_0__.taskDueDate.value = task.dueDate;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.taskTitle.value = task.title;
+    _ui__WEBPACK_IMPORTED_MODULE_0__.taskDescription.value = task.description;
+    if (task.category !== '') {
+        const index = _app__WEBPACK_IMPORTED_MODULE_1__.toDoList.projects.indexOf(task.category);
+        _ui__WEBPACK_IMPORTED_MODULE_0__.taskProjectSelect.selectedIndex = index;
+    }
+    const priorityRB = Array.prototype.find.call(
+        _ui__WEBPACK_IMPORTED_MODULE_0__.taskPriorities, i => Number.parseInt(i.value) === task.priority);
+    priorityRB.checked = true;
+
+    _ui__WEBPACK_IMPORTED_MODULE_0__.addTaskBtn.classList.remove('active');
+    _ui__WEBPACK_IMPORTED_MODULE_0__.addTaskBtn.classList.add('inactive');
+
+    _ui__WEBPACK_IMPORTED_MODULE_0__.doneBtn.classList.add('active');
+    _ui__WEBPACK_IMPORTED_MODULE_0__.doneBtn.classList.remove('inactive');
+
+    localStorage.setItem('taskForEdit', JSON.stringify(taskTitle));
+}
+
+const removeTask = (e) => {
+    const taskTitle = e.target.parentNode.parentNode.childNodes[1].innerHTML;
+    _app__WEBPACK_IMPORTED_MODULE_1__.toDoList.removeTask(taskTitle);
+    saveData();
+    updateTaskList(_app__WEBPACK_IMPORTED_MODULE_1__.toDoList.list);
+}
+
+const toggleTaskCompleteStatus = (e) => {
+    const taskTitle = e.target.parentNode.childNodes[1].innerHTML;
+    const task = _app__WEBPACK_IMPORTED_MODULE_1__.toDoList.getTaskByTitle(taskTitle);
+    task.completeStatus = !task.completeStatus;
+    saveData();
+    updateTaskList(_app__WEBPACK_IMPORTED_MODULE_1__.toDoList.list);
+}
+
+const toggleDetailPanel = (e) => {
+    const div = e.target.parentNode.parentNode.childNodes[1];
+    if (div.classList.contains('visible')) {
+        div.classList.remove('visible');
+        div.classList.add('invisible');
+    } else {
+        div.classList.remove('invisible');
+        div.classList.add('visible');
+    }
+}
+
+const sortTasks = (groupName='All Tasks') => {
+    switch(_ui__WEBPACK_IMPORTED_MODULE_0__.sortTasksSelect.selectedIndex) {
+        case 1: {
+            updateTaskList(_app__WEBPACK_IMPORTED_MODULE_1__.toDoList.sortByTitle(), groupName);
+            break;
+        }
+        case 2: {
+            updateTaskList(_app__WEBPACK_IMPORTED_MODULE_1__.toDoList.sortByPriority('lowhigh'), groupName);
+            break;
+        }
+        case 3: {
+            updateTaskList(_app__WEBPACK_IMPORTED_MODULE_1__.toDoList.sortByPriority('highlow'), groupName);
+            break;
+        }
+        case 4: {
+            updateTaskList(_app__WEBPACK_IMPORTED_MODULE_1__.toDoList.sortByDueDate('ascending'), groupName);
+            break;
+        }
+        case 5: {
+            updateTaskList(_app__WEBPACK_IMPORTED_MODULE_1__.toDoList.sortByDueDate('descending'), groupName);
+            break;
+        }
+        default: {
+            updateTaskList(_app__WEBPACK_IMPORTED_MODULE_1__.toDoList.list, groupName);
+            break;
+        }
+    }
+}
+
+const saveData = () => {
+    if ((0,_authentication__WEBPACK_IMPORTED_MODULE_2__.getUserId)()) {
+        (0,_storage__WEBPACK_IMPORTED_MODULE_3__.restoreFirestore)((0,_authentication__WEBPACK_IMPORTED_MODULE_2__.getUserId)())
+            .catch(() => {
+                console.log('No storage set up yet for current user!');
+            });
+        (0,_storage__WEBPACK_IMPORTED_MODULE_3__.saveFirestore)((0,_authentication__WEBPACK_IMPORTED_MODULE_2__.getUserId)());
+    } else {
+        (0,_storage__WEBPACK_IMPORTED_MODULE_3__.saveLocalStorage)();
+    }
+}
+
+/***/ }),
+
+/***/ "./src/modules/ui.js":
+/*!***************************!*\
+  !*** ./src/modules/ui.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "addProjectBtn": () => (/* binding */ addProjectBtn),
+/* harmony export */   "addProjectForm": () => (/* binding */ addProjectForm),
+/* harmony export */   "addTaskBtn": () => (/* binding */ addTaskBtn),
+/* harmony export */   "addTaskForm": () => (/* binding */ addTaskForm),
+/* harmony export */   "addTaskModal": () => (/* binding */ addTaskModal),
+/* harmony export */   "cancelAddTaskBtn": () => (/* binding */ cancelAddTaskBtn),
+/* harmony export */   "closeAddProjectFormBtn": () => (/* binding */ closeAddProjectFormBtn),
+/* harmony export */   "closeAddTaskModalBtn": () => (/* binding */ closeAddTaskModalBtn),
+/* harmony export */   "closeLogInModalBtn": () => (/* binding */ closeLogInModalBtn),
+/* harmony export */   "collapseBtn": () => (/* binding */ collapseBtn),
+/* harmony export */   "dashBoard": () => (/* binding */ dashBoard),
+/* harmony export */   "doneBtn": () => (/* binding */ doneBtn),
 /* harmony export */   "emailTxt": () => (/* binding */ emailTxt),
-/* harmony export */   "hideLoginError": () => (/* binding */ hideLoginError),
 /* harmony export */   "lblLoginErrorMessage": () => (/* binding */ lblLoginErrorMessage),
 /* harmony export */   "logInBtn": () => (/* binding */ logInBtn),
+/* harmony export */   "logInModal": () => (/* binding */ logInModal),
 /* harmony export */   "logOutBtn": () => (/* binding */ logOutBtn),
-/* harmony export */   "openLogInModal": () => (/* binding */ openLogInModal),
+/* harmony export */   "openAddProjectFormBtn": () => (/* binding */ openAddProjectFormBtn),
+/* harmony export */   "openAddTaskModalBtn": () => (/* binding */ openAddTaskModalBtn),
+/* harmony export */   "openLogInModalBtn": () => (/* binding */ openLogInModalBtn),
+/* harmony export */   "overlay": () => (/* binding */ overlay),
 /* harmony export */   "passwordTxt": () => (/* binding */ passwordTxt),
-/* harmony export */   "resetLogInModal": () => (/* binding */ resetLogInModal),
-/* harmony export */   "showLogOutState": () => (/* binding */ showLogOutState),
-/* harmony export */   "showLoginError": () => (/* binding */ showLoginError),
-/* harmony export */   "showLoginState": () => (/* binding */ showLoginState),
-/* harmony export */   "signUpBtn": () => (/* binding */ signUpBtn)
+/* harmony export */   "projectList": () => (/* binding */ projectList),
+/* harmony export */   "projectName": () => (/* binding */ projectName),
+/* harmony export */   "projects": () => (/* binding */ projects),
+/* harmony export */   "signUpBtn": () => (/* binding */ signUpBtn),
+/* harmony export */   "sortTasksSelect": () => (/* binding */ sortTasksSelect),
+/* harmony export */   "taskDescription": () => (/* binding */ taskDescription),
+/* harmony export */   "taskDueDate": () => (/* binding */ taskDueDate),
+/* harmony export */   "taskGroupTitle": () => (/* binding */ taskGroupTitle),
+/* harmony export */   "taskGroups": () => (/* binding */ taskGroups),
+/* harmony export */   "taskList": () => (/* binding */ taskList),
+/* harmony export */   "taskPriorities": () => (/* binding */ taskPriorities),
+/* harmony export */   "taskProjectPanel": () => (/* binding */ taskProjectPanel),
+/* harmony export */   "taskProjectSelect": () => (/* binding */ taskProjectSelect),
+/* harmony export */   "taskTitle": () => (/* binding */ taskTitle),
+/* harmony export */   "toggleDashboardBtn": () => (/* binding */ toggleDashboardBtn),
+/* harmony export */   "userGreeting": () => (/* binding */ userGreeting)
 /* harmony export */ });
-/* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! firebase/auth */ "./node_modules/firebase/auth/dist/index.esm.js");
+const toggleDashboardBtn = document.getElementById('toggleDashboardBtn');
+const dashBoard = document.getElementById('dashboard');
 
-
+const logInModal = document.getElementById('logInModal');
+const userGreeting = document.getElementById('userGreeting');
+const openLogInModalBtn = document.getElementById('openLogInModalBtn');
+const closeLogInModalBtn = document.getElementById('closeLogInModalBtn');
 const emailTxt = document.getElementById('emailTxt');
 const passwordTxt = document.getElementById('passwordTxt');
 
 const logInBtn = document.getElementById('logInBtn');
 const signUpBtn = document.getElementById('signUpBtn');
 const logOutBtn = document.getElementById('logOutBtn');
-
 const lblLoginErrorMessage = document.getElementById('lblLoginErrorMessage');
 
-const openLogInModal = () => {
-  document.getElementById('overlay').classList.add('active');
-  document.getElementById('loginModal').classList.add('active');
-  resetLogInModal();
-}
+const taskGroupTitle = document.getElementById('taskGroupTitle');
+const taskGroups = document.getElementsByClassName('task-group');
+const projects = document.getElementById('projects');
+const collapseBtn = document.getElementById('collapseBtn');
+const projectList = document.getElementById('projectList');
+const openAddProjectFormBtn = document.getElementById('openAddProjectFormBtn');
+const addProjectForm = document.getElementById('addProjectForm');
+const projectName = document.getElementById('projectName');
+const addProjectBtn = document.getElementById('addProjectBtn');
+const closeAddProjectFormBtn = document.getElementById('closeAddProjectFormBtn');
 
-const closeLogInModal = () => {
-  document.getElementById('overlay').classList.remove('active');
-  document.getElementById('loginModal').classList.remove('active')
-  resetLogInModal();
-}
+const taskList = document.getElementById('taskList');
+const sortTasksSelect = document.getElementById('sortTasksSelect');
 
-const resetLogInModal = () => {
-  emailTxt.textContent = '';
-  passwordTxt.textContent = '';
-}
+const openAddTaskModalBtn = document.getElementById('openAddTaskModalBtn');
+const addTaskModal = document.getElementById('addTaskModal');
+const addTaskForm = document.getElementById('addTaskForm');
+const closeAddTaskModalBtn = document.getElementById('closeAddTaskModalBtn');
+const taskDueDate = document.getElementById('taskDueDate');
+const taskDescription = document.getElementById('taskDescription');
+const taskTitle = document.getElementById('taskTitle');
+const taskProjectPanel = document.getElementById('taskProjetPanel');
+const taskProjectSelect = document.getElementById('taskProjectSelect');
+const taskPriorities = document.getElementsByName('taskPriority');
+const addTaskBtn = document.getElementById('addTaskBtn');
+const doneBtn = document.getElementById('doneBtn');
+const cancelAddTaskBtn = document.getElementById('cancelAddTaskBtn');
 
-const hideLoginError = () => {
-  lblLoginErrorMessage.classList.remove('active')
-}
-
-const showLoginError = (error) => {
-  lblLoginErrorMessage.classList.add('active')  
-  if (error.code == firebase_auth__WEBPACK_IMPORTED_MODULE_0__.AuthErrorCodes.INVALID_PASSWORD) {
-    lblLoginErrorMessage.innerHTML = `Invalid password. Try again.`
-  } else if (error.code == firebase_auth__WEBPACK_IMPORTED_MODULE_0__.AuthErrorCodes.NULL_USER) {
-    lblLoginErrorMessage.innerHTML = `This user doesn't exist. Try again.`
-  }  else if (error.code == firebase_auth__WEBPACK_IMPORTED_MODULE_0__.AuthErrorCodes.INVALID_EMAIL) {
-    lblLoginErrorMessage.innerHTML = `Invalid email address. Try again.`
-  } else if (error.code == firebase_auth__WEBPACK_IMPORTED_MODULE_0__.AuthErrorCodes.WEAK_PASSWORD) {
-    lblLoginErrorMessage.innerHTML = `Password should be at least 6 characters. Try again.`
-  } else if (error.code == firebase_auth__WEBPACK_IMPORTED_MODULE_0__.AuthErrorCodes.CREDENTIAL_ALREADY_IN_USE){
-    lblLoginErrorMessage.innerHTML = `User credentials already taken. Try again.`
-  }
-  else {
-    lblLoginErrorMessage.innerHTML = 'Try again!'     
-  }
-}
-
-const showLoginState = (user) => {
-  document.getElementById('userGreeting').innerHTML = `Welcome ${user.email}!`;
-  document.getElementById('userGreeting').classList.remove('inactive');
-  document.getElementById('userGreeting').classList.add('active');
-
-  document.getElementById('logOutBtn').classList.remove('inactive');
-  document.getElementById('logOutBtn').classList.add('active');
-
-  document.getElementById('openLogInModalBtn').classList.remove('active');
-  document.getElementById('openLogInModalBtn').classList.add('inactive');
-  resetLogInModal();
-}
-
-const showLogOutState = () => {
-  document.getElementById('userGreeting').classList.add('inactive');
-  document.getElementById('userGreeting').classList.remove('active');
-
-  document.getElementById('logOutBtn').classList.add('inactive');
-  document.getElementById('logOutBtn').classList.remove('active');
-
-  document.getElementById('openLogInModalBtn').classList.add('active');
-  document.getElementById('openLogInModalBtn').classList.remove('inactive');
-  resetLogInModal();
-}
-
+const overlay = document.getElementById('overlay');
 
 /***/ }),
 
@@ -32190,6 +33825,7 @@ const showLogOutState = () => {
   \**************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "FirebaseError": () => (/* reexport safe */ _firebase_util__WEBPACK_IMPORTED_MODULE_2__.FirebaseError),
@@ -33139,6 +34775,7 @@ registerCoreComponents('');
   \********************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Component": () => (/* binding */ Component),
@@ -33565,6 +35202,7 @@ class ComponentContainer {
   \*****************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "LogLevel": () => (/* binding */ LogLevel),
@@ -33801,6 +35439,7 @@ function setUserLogHandler(logCallback, options) {
   \*****************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "deleteDB": () => (/* binding */ deleteDB),
@@ -33907,6 +35546,7 @@ function getMethod(target, prop) {
   \**************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "a": () => (/* binding */ reverseTransformCache),
@@ -34118,19 +35758,31 @@ const unwrap = (value) => reverseTransformCache.get(value);
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
+/******/ 			id: moduleId,
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -34171,419 +35823,33 @@ const unwrap = (value) => reverseTransformCache.get(value);
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/nonce */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nc = undefined;
+/******/ 	})();
+/******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
-/*!***********************!*\
-  !*** ./src/script.js ***!
-  \***********************/
+"use strict";
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 __webpack_require__.r(__webpack_exports__);
-Object(function webpackMissingModule() { var e = new Error("Cannot find module './style.css'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! firebase/app */ "./node_modules/firebase/app/dist/index.esm.js");
-/* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! firebase/auth */ "./node_modules/firebase/auth/dist/index.esm.js");
-/* harmony import */ var firebase_firestore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! firebase/firestore */ "./node_modules/firebase/firestore/dist/index.esm.js");
-/* harmony import */ var _ui_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ui.js */ "./src/ui.js");
+/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/style.css */ "./src/style/style.css");
+/* harmony import */ var _modules_authentication__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/authentication */ "./src/modules/authentication.js");
+/* harmony import */ var _modules_app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/app */ "./src/modules/app.js");
+/* harmony import */ var _modules_todolist__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/todolist */ "./src/modules/todolist.js");
 
 
 
 
 
+(0,_modules_app__WEBPACK_IMPORTED_MODULE_2__.setUpApp)();
+(0,_modules_authentication__WEBPACK_IMPORTED_MODULE_1__.monitorAuthState)();
 
-const Task = (detail='', 
-dateAdded='yyyy-mm-dd',
-completed=false) => {
-    let taskDetail = detail;
-    let taskDate = dateAdded;
-    let taskCompleteStatus = completed;
-
-    const getDetail = () => taskDetail;
-    const setDetail = (newDetail) => 
-    taskDetail = newDetail;
-    const getDateAdded = () => taskDate;
-    const setDateAdded = (newDateAdded='yyyy-mm-dd') => 
-    taskDate = newDateAdded;
-    const isCompleted = () => taskCompleteStatus;
-    const toggleCompleteStatus = () => 
-    taskCompleteStatus = !taskCompleteStatus;
-
-    return {
-        getDetail,
-        setDetail, 
-        getDateAdded, 
-        setDateAdded,
-        isCompleted,
-        toggleCompleteStatus
-    }
-}
-
-const ToDoList = (() => {
-    let taskList = [];
-
-    const addTask = (detail, dateAdded, completed) => {
-        let task = Task(detail, dateAdded, completed);
-        if (!taskAlreadyAdded(task)) {
-            taskList.unshift(task);
-            return 'Task added successfully!';
-        } else {
-            return 'Task already added!';
-        }
-    }
-
-    const removeTask = (taskDetail) => {
-        if (taskList) {
-            taskList = taskList.filter(i => 
-                i.getDetail() !== taskDetail);
-            return 'Task removed successfully!';
-        } else {
-            return;
-        }
-    }
-    const removeAllTasks = () => {
-        taskList = []
-    }
-    const taskAlreadyAdded = (task) => {
-        for (let t of taskList) {
-            if (t.getDetail() === task.getDetail() 
-            && t.getDateAdded() === task.getDateAdded()) {
-                return true;
-            }
-        }
-        return false;
-    }
-    const getTasksByDate = (date) => {
-        return taskList.filter(t => t.getDateAdded() === date);
-    }
-    const getTaskByDetail = (taskDetail) => {
-        console.log(taskList);
-        let task = taskList.find(t => t.getDetail() === taskDetail);
-        return task;
-    }
-    const setAllTasksIncomplete = () => {
-        for (let t of taskList) {
-            if (t.isCompleted()) {
-                t.toggleCompleteStatus()
-            }
-        }
-    }
-    const getToDoList = () => taskList;
-    const setToDoList = (list) => {
-        taskList = list;
-    }
-    const getCount = () => {
-        return taskList.length;
-    }
-    return {
-        addTask,
-        removeTask,
-        removeAllTasks,
-        taskAlreadyAdded,
-        getTaskByDetail,
-        getToDoList,
-        setToDoList,
-        getTasksByDate,
-        setAllTasksIncomplete,
-        getCount
-    }
-})()
-
-const FirebaseAuth = (() => {
-    let user;
-    let userId;
-    const firebaseConfig = {
-        apiKey: "AIzaSyD6jVeINfZZu_h50AkpzvbPGwaAmXhwUwo",
-        authDomain: "todolist-367b7.firebaseapp.com",
-        projectId: "todolist-367b7",
-        storageBucket: "todolist-367b7.appspot.com",
-        messagingSenderId: "308947241325",
-        appId: "1:308947241325:web:d6cc5db2dd46102b5ab264"
-    };
-    const app = (0,firebase_app__WEBPACK_IMPORTED_MODULE_1__.initializeApp)(firebaseConfig);
-    const auth = (0,firebase_auth__WEBPACK_IMPORTED_MODULE_2__.getAuth)(app);
-    const getApp = () => app;
-    const getUser = () => user;
-    const getUserId = () => userId;
-    const loginEmailPassword = async () => {
-        const loginEmail = _ui_js__WEBPACK_IMPORTED_MODULE_4__.emailTxt.value;
-        const loginPassword = _ui_js__WEBPACK_IMPORTED_MODULE_4__.passwordTxt.value;
-
-        try {
-            const userCredentials = await (0,firebase_auth__WEBPACK_IMPORTED_MODULE_2__.signInWithEmailAndPassword)(auth, loginEmail, 
-                loginPassword);
-            user = userCredentials.user;
-            userId = userCredentials.user.uid;
-            (0,_ui_js__WEBPACK_IMPORTED_MODULE_4__.closeLogInModal)();
-            (0,_ui_js__WEBPACK_IMPORTED_MODULE_4__.showLoginState)(user);
-            (0,_ui_js__WEBPACK_IMPORTED_MODULE_4__.hideLoginError)();
-        }
-        catch(error) {
-            (0,_ui_js__WEBPACK_IMPORTED_MODULE_4__.showLoginError)(error);
-        }
-    };
-    const createAccount = async () => {
-        const loginEmail = _ui_js__WEBPACK_IMPORTED_MODULE_4__.emailTxt.value;
-        const loginPassword = _ui_js__WEBPACK_IMPORTED_MODULE_4__.passwordTxt.value;
-
-        try {
-            const userCredentials = await (0,firebase_auth__WEBPACK_IMPORTED_MODULE_2__.createUserWithEmailAndPassword)(auth, loginEmail, 
-                loginPassword);
-            user = userCredentials.user;
-            userId = userCredentials.user.uid;
-            (0,_ui_js__WEBPACK_IMPORTED_MODULE_4__.closeLogInModal)();
-            (0,_ui_js__WEBPACK_IMPORTED_MODULE_4__.showLoginState)(user);
-            (0,_ui_js__WEBPACK_IMPORTED_MODULE_4__.hideLoginError)();
-        }
-        catch(error) {
-            (0,_ui_js__WEBPACK_IMPORTED_MODULE_4__.showLoginError)(error);
-        }
-    };
-    const logout = async () => {
-        try {
-            await (0,firebase_auth__WEBPACK_IMPORTED_MODULE_2__.signOut)(auth);
-            (0,_ui_js__WEBPACK_IMPORTED_MODULE_4__.showLogOutState)();
-            console.log('Signed out!')
-        } catch(e) {
-            console.log('No user signed in!')
-        }
-    }
-    ;(0,_ui_js__WEBPACK_IMPORTED_MODULE_4__.hideLoginError)();
-    return {
-        getApp,
-        getUser,
-        getUserId,
-        loginEmailPassword,
-        createAccount,
-        logout
-    }
-})()
-
-const ConverterForStorage = (() => {
-    const convertTaskToObj = (task) => {
-        return {
-            taskDetail: task.getDetail(),
-            taskDate: task.getDateAdded(),
-            taskCompleteStatus: task.isCompleted()
-        };
-    }
-    const convertListForStorage = (taskList) => {
-        return taskList.map(t => convertTaskToObj(t))
-    }
-    const convertStoredList = (list) => {
-        return list.map(i => 
-            Task(i.taskDetail, i.taskDate, i.taskCompleteStatus));
-    }
-    return {
-        convertTaskToObj,
-        convertListForStorage,
-        convertStoredList
-    }
-})()
-
-const FirebaseStorage = (() => {
-    const db = (0,firebase_firestore__WEBPACK_IMPORTED_MODULE_3__.getFirestore)(FirebaseAuth.getApp());
-    const saveToDoListToFirebase = async (taskList, uid) => {
-        try {
-            await (0,firebase_firestore__WEBPACK_IMPORTED_MODULE_3__.setDoc)((0,firebase_firestore__WEBPACK_IMPORTED_MODULE_3__.doc)(db, 'user', uid), 
-            {list: ConverterForStorage.convertListForStorage(taskList)})
-        } catch (e) {
-            console.error('Error storing task list to Firebase: ', e);
-        }
-    }
-    const getToDoListFromFirebase = async (uid) => {
-        ToDoList.removeAllTasks();
-        const docSnap = await (0,firebase_firestore__WEBPACK_IMPORTED_MODULE_3__.getDoc)((0,firebase_firestore__WEBPACK_IMPORTED_MODULE_3__.doc)(db, 'user', uid));
-        console.log(docSnap)
-        if (docSnap.exists()) {
-            ToDoList.setToDoList(ConverterForStorage.convertStoredList(docSnap.data().list));
-        }  else {
-            throw `Document doesn't exist`;
-        }
-    }
-    return {
-        saveToDoListToFirebase,
-        getToDoListFromFirebase
-    }
-})()
-
-const LocalStorage = (() => {
-    const saveToLocalStorage = () => {
-        localStorage.setItem('taskList', JSON.stringify(
-            ConverterForStorage.convertListForStorage(ToDoList.getToDoList())));
-    }
-    const restoreFromLocalStorage = () => {
-        ToDoList.removeAllTasks();
-        let stored = localStorage.getItem('taskList');
-        if (stored) {
-            ToDoList.setToDoList(ConverterForStorage.convertStoredList(JSON.parse(stored)));
-        }
-    }
-    return {
-        saveToLocalStorage,
-        restoreFromLocalStorage
-    }
-})()
-
-const ToDoListApp = (() => {
-    const openLogInModalBtn = document.getElementById('openLogInModalBtn');
-    const closeLogInModalBtn = document.getElementById('closeLogInModalBtn');
-    const userInput = document.getElementById('userInput');
-    const taskList = document.getElementById('taskList');
-    const addTaskForm = document.getElementById('addTaskForm');
-    const taskDateCalendar = document.getElementById('taskDate');
-
-    const addTask = (e) => {
-        e.preventDefault();
-        const taskDate = document.getElementById('taskDate').value;
-        const taskDetail = document.getElementById('taskDetail').value;
-
-        ToDoList.addTask(taskDetail, taskDate, false);
-        resetAddTaskForm();
-        saveData();
-        monitorAuthState();
-    }
-    const createTaskCard = (task) => {
-        const taskDiv = document.createElement('div');
-        const taskDate = document.createElement('p');
-        const taskDetail = document.createElement('p');
-        const completedChkBx = document.createElement('input');
-        const deleteBtn = document.createElement('button');
-
-        taskDate.classList.add('task-date');
-        taskDetail.classList.add('task-detail');
-        completedChkBx.classList.add('task-complete-chkbx');
-        deleteBtn.classList.add('task-delete-btn')
-        taskDiv.classList.add('task');
-
-        taskDate.textContent = task.getDateAdded();
-        if (task.getDetail().length < 180) {
-            taskDetail.textContent = task.getDetail();
-        } else {
-            taskDetail.textContent = task.getDetail().substring(0, 175) + '...';
-        }
-        completedChkBx.setAttribute('type', 'checkbox')
-        if (task.isCompleted()) {
-            completedChkBx.checked = true;
-            taskDiv.classList.add('complete')
-        } else {
-            completedChkBx.checked = false;
-            taskDiv.classList.add('incomplete')
-        }
-        deleteBtn.innerHTML = '<i class="fa fa-trash"></i>'
-
-        completedChkBx.onclick = toggleTaskCompleteStatus;
-        deleteBtn.onclick = removeTask;
-
-        taskDiv.appendChild(taskDate);
-        taskDiv.appendChild(taskDetail);
-        taskDiv.appendChild(completedChkBx);
-        taskDiv.appendChild(deleteBtn);
-
-        return taskDiv;
-    }
-    const updateTaskList = (tasks) => {
-        taskList.innerHTML = '';
-        if (tasks.length > 0) {
-            taskList.classList.add('active');
-            userInput.style.flexGrow = 1;
-            taskList.style.flexGrow = tasks.length * 2;
-            let title = document.createElement('h3');
-            title.textContent = `Here's your list. Now, go get 'em tiger!`;
-            taskList.appendChild(title);
-            for (let task of tasks) {
-                taskList.appendChild(createTaskCard(task));
-            }
-        } else {
-            taskList.classList.remove('active');
-            userInput.style.flexGrow = 10;
-            taskList.style.flexGrow = 1;
-        }
-        taskDateCalendar.value = getCurrentDate();
-    } 
-    const removeTask = (e) => {
-        const taskDetail = e.target.parentNode.parentNode.childNodes[1].innerHTML;
-        ToDoList.removeTask(taskDetail);
-        saveData();
-        monitorAuthState();
-    }
-    const clearAllTasks = () => {
-        ToDoList.removeAllTasks();
-        saveData();
-        monitorAuthState();
-    }
-    const toggleTaskCompleteStatus = (e) => {
-        const taskDetail = e.target.parentNode.childNodes[1].innerHTML;
-        ToDoList.getTaskByDetail(taskDetail).toggleCompleteStatus();
-        saveData();
-        monitorAuthState();
-    }
-    function getCurrentDate() {
-        let today = new Date(Date.now());
-        let date = today.getDate() < 10 ? `0${today.getDate()}` : `${today.getDate()}`
-        let month = today.getMonth() < 10 ? `0${today.getMonth() + 1}` : `${today.getMonth() + 1}`
-        return `${today.getFullYear()}` + "-" + month + "-" + date;
-    }
-    const resetAddTaskForm = () => {
-        document.getElementById('taskDate').value = getCurrentDate();
-        document.getElementById('taskDetail').value = '';
-    }
-    const saveData = () => {
-        if (FirebaseAuth.getUserId()) {
-            FirebaseStorage.getToDoListFromFirebase(FirebaseAuth.getUserId())
-            .catch(() => {
-                console.log('No storage set up yet for current user!');
-            });
-            FirebaseStorage.saveToDoListToFirebase(ToDoList.getToDoList(), 
-            FirebaseAuth.getUserId());
-        } else {
-            LocalStorage.saveToLocalStorage();
-        }
-    }
-    const monitorAuthState = () => {
-        let unsubscribe = (0,firebase_auth__WEBPACK_IMPORTED_MODULE_2__.onAuthStateChanged)((0,firebase_auth__WEBPACK_IMPORTED_MODULE_2__.getAuth)(FirebaseAuth.getApp()), user => {
-            if (user) {
-                FirebaseStorage.getToDoListFromFirebase(user.uid)
-                .then(() => {
-                    updateTaskList(ToDoList.getToDoList());
-                })
-                .catch((e) => {
-                    console.log('No storage set up yet for current user!');
-                });
-            } else {
-                LocalStorage.restoreFromLocalStorage();
-                updateTaskList(ToDoList.getToDoList());
-            }
-            console.log(ToDoList.getToDoList());
-        });
-        unsubscribe();
-    }
-    const login = () => {
-        FirebaseAuth.loginEmailPassword()
-        .then(() => monitorAuthState());
-    }
-    const logout = () => {
-        FirebaseAuth.logout()
-        .then(() => monitorAuthState());
-    }
-    const signUp = () => {
-        FirebaseAuth.createAccount()
-        .then(() => monitorAuthState());
-    }
-    const _init_ = (() => {
-        FirebaseAuth.logout();
-        openLogInModalBtn.onclick = _ui_js__WEBPACK_IMPORTED_MODULE_4__.openLogInModal;
-        closeLogInModalBtn.onclick = _ui_js__WEBPACK_IMPORTED_MODULE_4__.closeLogInModal;
-        addTaskForm.onsubmit = addTask;
-        _ui_js__WEBPACK_IMPORTED_MODULE_4__.logInBtn.onclick = login;
-        _ui_js__WEBPACK_IMPORTED_MODULE_4__.signUpBtn.onclick = signUp;
-        _ui_js__WEBPACK_IMPORTED_MODULE_4__.logOutBtn.onclick = logout;
-        taskDateCalendar.setAttribute('min', getCurrentDate());
-    })()
-    return {
-        monitorAuthState
-    }
-})()
-
-ToDoListApp.monitorAuthState();
+console.log((0,_modules_todolist__WEBPACK_IMPORTED_MODULE_3__.getThisWeekDates)());
 })();
 
 /******/ })()
