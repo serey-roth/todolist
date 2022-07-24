@@ -1,76 +1,135 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>To Do List</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
-        <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="header">
-                    <div class="title-bar">
-                        <h1 class="title">To-Do-List</h1>
-                    </div>
-                    <div class="user-auth">
-                        <h6 id="userGreeting" class="inactive">Welcome abcde@gmail.com!</h6>
-                        <button type="button" class="btn active" id="openLogInModalBtn">
-                            <i class="fa fa-sign-in"></i></button>
-                        <button type="button" class="btn inactive" id="logOutBtn">
-                            <i class="fa fa-sign-out"></i>
-                        </button>
-                    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To Do List</title>
+    <link type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
+</head>
+<body class="container">
+    <div class="contents">
+        <header class="header">
+            <div class="dashboard-activator">
+                <button class="fa fa-bars" id="toggleDashboardBtn"></button>
+            </div>
+            <div class="title-bar">
+                <h1 class="title">agenda</h1>
+            </div>
+        </header>
+        <main class="main">
+            <div class="dashboard inactive" id="dashboard">
+                <div class="user-auth">
+                    <h6 id="userGreeting" class="inactive">Welcome, abcde@gmail.com!</h6>
+                    <button type="button" class="btn active" id="openLogInModalBtn">
+                        <i class="fa fa-sign-in"></i> Sign In</button>
+                    <button type="button" class="btn inactive" id="logOutBtn">
+                        <i class="fa fa-sign-out"></i> Sign Out
+                    </button>
                 </div>
-                <div class="user-input" id="userInput">
-                    <h3>What's on the agenda?</h3>
-                    <form class="add-task-form" id="addTaskForm">
-                        <input class='input' type="date" 
-                            name="add-task-calendar" 
-                            id="taskDate"
-                            placeholder="2022-07-04"
-                            min="1900-01-01"
-                            required>
-                        <input class='input' type='text'
-                            id="taskDetail"
-                            placeholder="Enter your task details!"
-                            required></in>
-                        <button type="submit" class="btn" id="addTaskBtn">Submit</button>
+                <div class="task-group" id="all-tasks">
+                    <h4>All Tasks</h4>
+                    <p>0</p>
+                </div>
+                <div class="task-group" id="today">
+                    <h4>Today</h4>
+                    <p>0</p>
+                </div>
+                <div class="task-group" id="this_week">
+                    <h4>This Week</h4>
+                    <p>0</p>
+                </div>
+                <div class="collection" id="projects">
+                    <div class="collection-header">
+                        <h4>Projects</h4>
+                        <button class="collapse" id="collapseBtn"><i class="fa fa-caret-square-o-down"></i></button>
+                    </div>
+                    <div class="project-list active" id="projectList">
+                    </div>
+                    <button class="btn" id="openAddProjectFormBtn">+ Add project</button>
+                    <form class="add-project-form inactive" id="addProjectForm">
+                        <input type="text" name="project-name" id="projectName" placeholder="Add a project" required>
+                        <div class="btn-group">
+                            <button class="btn" type="submit" id="addProjectBtn">Add</button>
+                            <button class="btn" type="reset" id="closeAddProjectFormBtn">Cancel</button>
+                        </div>
                     </form>
                 </div>
+            </div>
+            <div class="task-content">
+                <div class="content-header">
+                    <h3 id="taskGroupTitle">All Tasks</h3>
+                    <span>
+                        <label for="sortTasksSelect">Sort by: </label>
+                        <select id="sortTasksSelect">
+                            <option>None</option>
+                            <option>Title: A-Z</option>
+                            <option>Priority: Low-High</option>
+                            <option>Priority: High-Low</option>
+                            <option>Due Date: Ascending</option>
+                            <option>Due Date: Descending</option>
+                        </select>
+                    </span>
+                    <button class="btn" id="openAddTaskModalBtn">+ Add task</button>
+                </div>
                 <div class="task-list" id="taskList">
-                    <h3>Go get 'em, tiger!</h3>
                 </div>
             </div>
-            <div class="log-in-modal" id="loginModal">
-                <form class="log-in-form" id="logInForm">
-                    <button type="button" class="btn" id='closeLogInModalBtn'><i class="fa fa-close"></i></button>
-                    <h3>Enter your credentials:</h3>
-                    <input
-                    class="input"
-                        id="emailTxt" 
-                        type="email"
-                        placeholder="Email">
-                    <input
-                        class="input"
-                        id="passwordTxt" 
-                        type="password"
-                        placeholder="Password">
-                    <p id="lblLoginErrorMessage" class="errorlabel active">Error message</p>
-                    <button id="logInBtn" type="button" class="btn">Log in</button>
-                    <button id="signUpBtn" type="button" class="btn">Sign up</button>
-                </form>
+        </main>
+    </div>
+    <div class="add-task-modal inactive" id="addTaskModal">
+        <form class="add-task-form" id="addTaskForm">
+            <button type="button" class="btn" id='closeAddTaskModalBtn'>
+                <i class="fa fa-close"></i></button>
+            <h3>Create a new task:</h3>
+            <input class="input" id="taskDueDate" type="date" required>
+            <input class="input" id="taskTitle" type="text" placeholder="Title" required>
+            <textarea id="taskDescription" placeholder="Details"></textarea>
+            <div class="task-project" id="taskProjectPanel">
+                <label for="taskProject">Project:</label>
+                <select id="taskProjectSelect">
+                </select>
             </div>
-            <div class="overlay" id='overlay'></div>
-            <div class="footer">
-                <p>Copyright &copy; 2022 Serey Roth</p>
-                <a href="#">Source</a>
-            </div>
-        </div>
-    </body>
+            <fieldset class="priority">
+                <legend>
+                    Task Priority:
+                </legend>
+                <label id="lowLabel">
+                    <input type="radio" class="task-priority" name="taskPriority" id="lowPriority" value="0" checked>
+                    Low
+                </label>
+                <label id="mediumLabel">
+                    <input type="radio" class="task-priority" name="taskPriority" id="mediumPriority" value="1">
+                    Medium
+                </label>
+                <label id="highLabel">
+                    <input type="radio" class="task-priority" name="taskPriority" id="highPriority" value="2">
+                    High
+                </label>
+            </fieldset>
+            <button class="btn active" type="submit" id="addTaskBtn">Add</button>
+            <button class="btn inactive" type="submit" id="doneBtn">Done</button>
+            <button class="btn" type="button" id="cancelAddTaskBtn">Cancel</button>
+        </form>
+    </div>
+    <div class="log-in-modal inactive" id="logInModal">
+        <form class="log-in-form" id="logInForm">
+            <button type="button" class="btn" id='closeLogInModalBtn'><i class="fa fa-close"></i></button>
+            <h3>Enter your credentials:</h3>
+            <input class="input" id="emailTxt" type="email" placeholder="Email">
+            <input class="input" id="passwordTxt" type="password" placeholder="Password">
+            <p id="lblLoginErrorMessage" class="errorlabel active">Error message</p>
+            <button id="logInBtn" type="button" class="btn">Log in</button>
+            <button id="signUpBtn" type="button" class="btn">Sign up</button>
+        </form>
+    </div>
+    <div class="overlay inactive" id='overlay'></div>
+    <footer class="footer">
+        <p>Copyright &copy; 2022 Serey Roth</p>
+        <a href="#">Source</a>
+        </f>
+</body>
 </html>
