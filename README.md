@@ -28,7 +28,7 @@ Via the dashboard, users also have access to various task categories:
 Last but not least, users can add new projects to the web application by clicking the "Add new project" button.
   
 ## Personal Notes
-1st Version: 2022-07-08 -> 2022-07-13
+1st Version: 2022-07-08 -> 2022-07-13 //
 What I did:
 * Finish the first version of the HTML, CSS and Javascript files. 
 * Incorporate Firebase user authentication and Firestore database.
