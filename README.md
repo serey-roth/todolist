@@ -10,7 +10,8 @@ This is where individual tasks are displayed. Users can add new tasks by clickin
 Each task card contains the title, due date, edit, delete and box icons. 
 * Edit: allows you to edit the current task
 * Delete: delete the current task
-* Box: mark tasks as completed without deleting it from the main panel feed   
+* Box: mark tasks as completed without deleting it from the main panel feed  
+ 
 Clicking the card activates the detail panel which display the task in its entirety, including its description and priority.  
 
 Clicking the "Add task" button generates a form in which the user must enter a title, due date and a priority for the task.
