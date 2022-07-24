@@ -19,14 +19,13 @@ within that project's panel; otherwise, it will show up in the "All Tasks" panel
 
 #### Dashboard
 Users can sign in or out by clicking respective buttons located at the top of the dashboard. Clicking the sign in button generates a form in which the user
-must enter a valid email address and password.   
-Via the dashboard, users also have access to various task categories:
+must enter a valid email address and password. Furthermore, users can add new projects to the web application by clicking the "Add new project" button.  
+Via the dashboard, users have access to various task categories:
 * All Tasks: shows all tasks
 * Today: filters for tasks due today
 * This Week: filters for tasks due this week
 * Projects: 
-  * filters for project-related tasks  
-Last but not least, users can add new projects to the web application by clicking the "Add new project" button.
+  * filters for project-related tasks
   
 ## Personal Notes
 1st Version: 2022-07-08 -> 2022-07-13  
