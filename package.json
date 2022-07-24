@@ -1,14 +1,17 @@
 {
   "name": "todolist",
-  "version": "1.0.0",
-  "description": "A vanilla js to do list app",
-  "main": "script.js",
+  "version": "2.0.0",
+  "description": "A to-do list web application that runs on vanilla JS, with Firestore database and Firebase authentication.",
+  "main": "index.js",
   "author": "Serey Roth",
   "scripts": {
-    "build": "webpack --mode=development"
+    "build": "webpack --mode=development",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open"
   },
   "license": "ISC",
   "dependencies": {
+    "dayjs": "^1.11.4",
     "firebase": "^9.8.4",
     "firebaseui": "^6.0.1"
   },
