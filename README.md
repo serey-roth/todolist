@@ -30,16 +30,16 @@ Via the dashboard, users have access to various task categories:
   
 ## Personal Notes
 1st Version: 2022-07-08 -> 2022-07-13   
-<img width="1252" alt="Screen Shot 2022-07-24 at 1 57 51 PM" src="https://user-images.githubusercontent.com/88986106/180666376-1145ac2c-2175-43c0-b7e5-7475dfac3d78.png">
-<img width="1249" alt="Screen Shot 2022-07-24 at 1 58 15 PM" src="https://user-images.githubusercontent.com/88986106/180666377-959a5322-f627-4415-8988-8be8b6c349b5.png">
-<img width="1246" alt="Screen Shot 2022-07-24 at 1 58 32 PM" src="https://user-images.githubusercontent.com/88986106/180666379-30de0834-66d6-4afe-87b3-df9696e698c5.png">
 What I did:  
 * Finish the first version of the HTML, CSS and Javascript files. 
 * Incorporate Firebase user authentication and Firestore database.
 * Set up Webpack for the app.
 
 I integrated modular patterns and SOLID principles while building the first version of the application. I also had the chance to practice several
-JS topics such as factory functions and IIFEs.
+JS topics such as factory functions and IIFEs.   
+<img width="1252" alt="Screen Shot 2022-07-24 at 1 57 51 PM" src="https://user-images.githubusercontent.com/88986106/180666376-1145ac2c-2175-43c0-b7e5-7475dfac3d78.png">
+<img width="1249" alt="Screen Shot 2022-07-24 at 1 58 15 PM" src="https://user-images.githubusercontent.com/88986106/180666377-959a5322-f627-4415-8988-8be8b6c349b5.png">
+<img width="1246" alt="Screen Shot 2022-07-24 at 1 58 32 PM" src="https://user-images.githubusercontent.com/88986106/180666379-30de0834-66d6-4afe-87b3-df9696e698c5.png">
 
 2nd Version: 2022-07-17 -> 2022-07-22  
 What I did:  
