@@ -7,13 +7,15 @@
   "scripts": {
     "build": "webpack --mode=development",
     "watch": "webpack --watch",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "deploy": "gh-pages --dist 'dist' --branch 'gh-pages'"
   },
   "license": "ISC",
   "dependencies": {
     "dayjs": "^1.11.4",
     "firebase": "^9.8.4",
-    "firebaseui": "^6.0.1"
+    "firebaseui": "^6.0.1",
+    "gh-pages": "^4.0.0"
   },
   "devDependencies": {
     "css-loader": "^6.7.1",
