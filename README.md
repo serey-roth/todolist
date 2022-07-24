@@ -29,7 +29,7 @@ Via the dashboard, users have access to various task categories:
   * filters for project-related tasks
   
 ## Personal Notes
-*1st Version: 2022-07-08 -> 2022-07-13  
+* 1st Version: 2022-07-08 -> 2022-07-13  
 What I did:  
 ** Finish the first version of the HTML, CSS and Javascript files. 
 ** Incorporate Firebase user authentication and Firestore database.
@@ -38,7 +38,7 @@ What I did:
 I integrated modular patterns and SOLID principles while building the first version of the application. I also had the chance to practice several
 JS topics such as factory functions and IIFEs.
 
-*2nd Version: 2022-07-17 -> 2022-07-22  
+* 2nd Version: 2022-07-17 -> 2022-07-22  
 What I did:  
 ** Redo the UI to include a dashboard and a main panel.
 ** Rewrite the styling using Sass
@@ -46,5 +46,5 @@ What I did:
 
 In addition to the tools that I used to build the first version, I integrated classes, modules and asynchronous functions into this version.   
 
-*3rd Version: TBD  
+* 3rd Version: TBD  
 I plan on building this application using React.js and including advanced CSS animations. 
