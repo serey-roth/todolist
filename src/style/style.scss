@@ -14,11 +14,7 @@
 
 body {
     font-size: 16px;
-    font-family: 'Trebuchet MS', 
-    'Lucida Sans Unicode', 
-    'Lucida Grande', 
-    'Lucida Sans', 
-    Arial, sans-serif;
+    font-family: 'Righteous', Arial, Helvetica, sans-serif;
     background-color: black;
     color: white;
 }
@@ -115,7 +111,7 @@ h3 {
     flex-grow: 2;
     position: relative;
     background-color: bisque;
-    @media only screen and (min-width: 500px) {
+    @media only screen and (min-width: 520px) {
         display: flex;
         flex-direction: row;
     }
@@ -278,7 +274,7 @@ h3 {
             }
         }
     }
-    @media only screen and (min-width: 500px) {
+    @media only screen and (min-width: 520px) {
         position: relative;
         width: 250px;
         height: auto;
@@ -295,7 +291,7 @@ h3 {
     flex-grow: 1;
     padding: var(--gap-s) var(--gap-l);
     background-color: rgb(156, 156, 32);
-    @media only screen and (min-width: 500px) {
+    @media only screen and (min-width: 520px) {
         height: auto;
         position: relative;
     }
@@ -333,7 +329,7 @@ h3 {
             padding: var(--gap-xs);
             border-radius: 50px;
             box-shadow: 1px 3px 5px black;
-            @media only screen and (min-width: 500px) {
+            @media only screen and (min-width: 520px) {
                 width: auto;
             }
         }
@@ -494,7 +490,7 @@ h3 {
     background: rgb(34, 34, 30);
     border-radius: 30px;
     box-shadow: 1px 3px 5px black;
-    @media only screen and (min-width: 500px) {
+    @media only screen and (min-width: 520px) {
         width: 300px;
         padding: calc(1.2 * var(--gap-l));
     }
