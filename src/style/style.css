@@ -4,6 +4,11 @@
   --gap-m: 15px;
   --gap-l: 20px;
   --gap-xl: 25px;
+  --header: #023047;
+  --dashboard: #219ebc;
+  --main: #8ecae6;
+  --hover: #a9def9;
+  --selected: #ced4da;
 }
 
 * {
@@ -52,8 +57,8 @@ body {
   transition: -webkit-filter 0.5s ease-in;
   transition: filter 0.5s ease-in;
   transition: filter 0.5s ease-in, -webkit-filter 0.5s ease-in;
-  background: white;
-  color: black;
+  background: var(--header);
+  color: inherit;
   font-family: inherit;
 }
 
@@ -101,7 +106,8 @@ h3 {
   gap: var(--gap-xs);
   width: 100%;
   padding: var(--gap-s);
-  background-color: #1d1d18;
+  background-color: var(--header);
+  color: white;
 }
 
 .header .dashboard-activator {
@@ -122,7 +128,7 @@ h3 {
 }
 
 .header .fa.fa-bars:hover {
-  color: #9c9c20;
+  color: var(--hover);
 }
 
 .header .title-bar {
@@ -143,7 +149,7 @@ h3 {
       -ms-flex-positive: 2;
           flex-grow: 2;
   position: relative;
-  background-color: bisque;
+  background-color: var(--main);
 }
 
 @media only screen and (min-width: 520px) {
@@ -172,7 +178,8 @@ h3 {
   width: 50%;
   height: 100%;
   max-height: 100%;
-  background-color: grey;
+  background-color: var(--dashboard);
+  color: white;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   position: absolute;
@@ -233,7 +240,7 @@ h3 {
 }
 
 .dashboard .task-group.selected h4, .dashboard .task-group.selected h5 {
-  color: #9c9c20;
+  color: var(--selected);
   font-weight: bolder;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -285,7 +292,7 @@ h3 {
 .dashboard .collection .collection-header button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  color: red;
+  color: var(--hover);
 }
 
 .dashboard #projects {
@@ -431,7 +438,7 @@ h3 {
       -ms-flex-positive: 1;
           flex-grow: 1;
   padding: var(--gap-s) var(--gap-l);
-  background-color: #9c9c20;
+  background-color: var(--main);
 }
 
 @media only screen and (min-width: 520px) {
@@ -454,10 +461,10 @@ h3 {
           justify-content: center;
   padding: var(--gap-s);
   gap: var(--gap-s);
+  font-size: 14px;
 }
 
 .content-header h3 {
-  font-size: 22px;
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
@@ -467,7 +474,7 @@ h3 {
 }
 
 .content-header .btn {
-  width: 120px;
+  width: 100px;
 }
 
 .content-header span {
@@ -488,11 +495,11 @@ h3 {
 
 .content-header span label {
   display: block;
-  padding-top: 8px;
+  padding-top: 6px;
 }
 
 .content-header span select {
-  width: 25px;
+  width: 20px;
   padding: var(--gap-xs);
   border-radius: 50px;
   -webkit-box-shadow: 1px 3px 5px black;
@@ -500,8 +507,11 @@ h3 {
 }
 
 @media only screen and (min-width: 520px) {
+  .content-header {
+    font-size: 16px;
+  }
   .content-header span select {
-    width: auto;
+    width: 100px;
   }
 }
 
@@ -595,7 +605,7 @@ h3 {
 }
 
 .task-list .task-card .task-display:hover {
-  background-color: #c5b1b1;
+  background-color: var(--hover);
 }
 
 .task-list .task-card .task-display .fa.fa-trash, .task-list .task-card .task-display .fa.fa-edit {
@@ -605,7 +615,7 @@ h3 {
 }
 
 .task-list .task-card .task-display .fa.fa-trash:hover, .task-list .task-card .task-display .fa.fa-edit:hover {
-  color: red;
+  color: var(--hover);
 }
 
 .task-list .task-card .task-due-date {
@@ -634,7 +644,7 @@ h3 {
   width: 100%;
   gap: var(--gap-xs);
   padding: var(--gap-s);
-  background-color: grey;
+  background-color: var(--hover);
   color: black;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -669,7 +679,7 @@ h3 {
 }
 
 .task-list .task-card .detail-panel .collapse:hover {
-  color: red;
+  color: var(--hover);
 }
 
 /* Overlay */
@@ -728,7 +738,7 @@ h3 {
   gap: var(--gap-s);
   padding: var(--gap-l);
   width: 250px;
-  background: #22221e;
+  background: var(--header);
   border-radius: 30px;
   -webkit-box-shadow: 1px 3px 5px black;
           box-shadow: 1px 3px 5px black;
@@ -759,7 +769,7 @@ h3 {
 }
 
 .add-task-form #closeLogInModalBtn:hover, .log-in-form #closeLogInModalBtn:hover {
-  color: red;
+  color: var(--hover);
 }
 
 .add-task-form #closeAddTaskModalBtn, .log-in-form #closeAddTaskModalBtn {
@@ -772,7 +782,13 @@ h3 {
 }
 
 .add-task-form #closeAddTaskModalBtn:hover, .log-in-form #closeAddTaskModalBtn:hover {
-  color: red;
+  color: var(--hover);
+}
+
+.add-task-form .btn, .log-in-form .btn {
+  width: 100%;
+  background-color: var(--main);
+  color: white;
 }
 
 .add-task-form .priority, .log-in-form .priority {
@@ -866,10 +882,6 @@ h3 {
           flex-grow: 2;
 }
 
-.add-task-form .btn {
-  width: 100%;
-}
-
 /* Footer */
 .footer {
   font-size: 16px;
@@ -877,7 +889,8 @@ h3 {
   height: 100%;
   padding: var(--gap-s);
   text-align: center;
-  background-color: gold;
+  background-color: var(--header);
+  color: var(--main);
 }
 
 .footer a {
